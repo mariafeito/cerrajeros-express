@@ -249,6 +249,232 @@
     }
   ],
 
+  "localidades": [
+    {
+      "slug": "cerrajeros-gijon",
+      "nombre": "Gijón",
+      "llegada": "35-50 min",
+      "titulo_seo": "Cerrajeros en Gijón ☎ {telefono} | Urgentes, precio cerrado",
+      "descripcion_meta": "Cerrajero urgente en Gijón: apertura de puertas sin romper, cambio de bombines y cerraduras, puertas blindadas. Precio cerrado por teléfono. Llama al {telefono}.",
+      "h1": "Cerrajeros urgentes en Gijón",
+      "intro": "¿Te has quedado fuera de casa en Gijón o necesitas cambiar la cerradura? Un cerrajero sale hacia tu dirección en cuanto nos llamas, con precio cerrado antes de empezar.",
+      "secciones": [
+        {
+          "titulo": "Cerrajero en Gijón para urgencias y trabajos programados",
+          "texto": [
+            "Damos servicio en todo el concejo de Gijón, desde el centro y Cimadevilla hasta La Calzada, El Llano, Pumarín o Somió. Llegamos en {llegada} y trabajamos {horario}, también fines de semana y festivos.",
+            "Lo que más nos piden en Gijón son aperturas de puertas cerradas de golpe, llaves rotas dentro del bombín y cambios de cerradura al entrar en un piso de alquiler. En todos los casos te damos el precio total por teléfono antes de salir."
+          ]
+        },
+        {
+          "titulo": "Viviendas, comunidades y negocios",
+          "texto": [
+            "En los edificios antiguos del centro y de La Arena todavía quedan muchos bombines básicos que se abren con facilidad por bumping; los sustituimos por modelos de seguridad en una sola visita. En las casas y chalets de Somió, Cabueñes o La Guía instalamos cerraduras multipunto y escudos protectores.",
+            "Para comercios y hostelería abrimos y reparamos cierres metálicos y persianas, y para comunidades de vecinos hacemos amaestramiento de llaves de portal, garaje y trastero."
+          ]
+        }
+      ],
+      "barrios": [
+        "Centro", "Cimadevilla", "La Arena", "El Coto", "El Llano", "La Calzada", "El Natahoyo",
+        "Pumarín", "Contrueces", "Nuevo Gijón", "Montevil", "Roces", "Viesques", "La Guía",
+        "Somió", "Cabueñes", "Ceares", "Tremañes"
+      ],
+      "faqs": [
+        { "pregunta": "¿Cuánto tarda un cerrajero en llegar en Gijón?", "respuesta": "Normalmente llegamos en {llegada}, según el barrio y la hora. Al llamar al {telefono} te decimos el tiempo estimado." },
+        { "pregunta": "¿Abrís portales y garajes de comunidades en Gijón?", "respuesta": "Sí. Abrimos portales, puertas de garaje y trasteros, y hacemos copias y amaestramiento de llaves para comunidades de vecinos." },
+        { "pregunta": "¿Cambiáis la cerradura en el momento si me mudo a un piso en Gijón?", "respuesta": "Sí. Llevamos bombines de seguridad en la furgoneta, así que el cambio se hace en la misma visita, normalmente en menos de media hora." }
+      ]
+    },
+    {
+      "slug": "cerrajeros-aviles",
+      "nombre": "Avilés",
+      "llegada": "35-50 min",
+      "titulo_seo": "Cerrajeros en Avilés ☎ {telefono} | Urgentes y sin romper",
+      "descripcion_meta": "Cerrajero en Avilés, Castrillón y Corvera: aperturas sin romper, cambio de bombines, cerrajería para empresas. Precio cerrado antes de salir. Llama al {telefono}.",
+      "h1": "Cerrajeros en Avilés y comarca",
+      "intro": "Aperturas de puertas, cambios de cerradura y urgencias en Avilés, Castrillón y Corvera. Te atiende directamente un cerrajero y te da el precio antes de salir.",
+      "secciones": [
+        {
+          "titulo": "Cerrajero urgente en Avilés",
+          "texto": [
+            "Atendemos en Avilés y en los concejos de alrededor: Castrillón (Piedras Blancas y Salinas) y Corvera (Las Vegas). Llegamos en {llegada} y trabajamos {horario}.",
+            "Si te has quedado fuera, abrimos sin romper la cerradura en la mayoría de los casos. Si has perdido las llaves, abrimos y cambiamos el bombín en la misma visita para que nadie pueda usar las llaves perdidas."
+          ]
+        },
+        {
+          "titulo": "Cerrajería para empresas e industria",
+          "texto": [
+            "Además de viviendas, trabajamos con naves, talleres y oficinas de la comarca: apertura y reparación de puertas metálicas, cierres enrollables, barras antipánico y amaestramiento de llaves para que cada persona tenga acceso solo a lo que necesita.",
+            "Emitimos factura a nombre de la empresa y podemos acordar visitas fuera del horario laboral para no interrumpir la actividad."
+          ]
+        },
+        {
+          "titulo": "Apartamentos de costa en Salinas",
+          "texto": [
+            "Si tienes un apartamento de temporada en Salinas o en la costa de Castrillón, la humedad y la sal acaban agarrotando las cerraduras. Te recomendamos revisarlas antes del verano: limpiamos, ajustamos o sustituimos el bombín por uno de seguridad resistente a la corrosión."
+          ]
+        }
+      ],
+      "barrios": [
+        "Centro", "Sabugo", "La Magdalena", "Versalles", "La Luz", "Llaranes", "Villalegre",
+        "Valliniello", "Miranda", "Piedras Blancas", "Salinas", "Las Vegas (Corvera)"
+      ],
+      "faqs": [
+        { "pregunta": "¿Dais servicio en Salinas y Piedras Blancas?", "respuesta": "Sí, cubrimos todo Castrillón y Corvera además de Avilés. Al llamar te indicamos el tiempo de llegada a tu dirección." },
+        { "pregunta": "¿Trabajáis para empresas de Avilés?", "respuesta": "Sí. Abrimos y reparamos puertas de naves y oficinas, instalamos cerraduras antipánico y hacemos amaestramiento de llaves, con factura a nombre de la empresa." },
+        { "pregunta": "He perdido las llaves de casa en Avilés, ¿qué hago?", "respuesta": "Llámanos al {telefono}. Abrimos la puerta sin romperla y, si quieres, cambiamos el bombín en la misma visita para que las llaves perdidas dejen de servir." }
+      ]
+    },
+    {
+      "slug": "cerrajeros-siero",
+      "nombre": "Siero",
+      "llegada": "20-35 min",
+      "titulo_seo": "Cerrajeros en Pola de Siero y Lugones ☎ {telefono}",
+      "descripcion_meta": "Cerrajero urgente en Siero: Pola de Siero, Lugones, El Berrón y Lieres. Apertura de puertas, cambio de bombines y cerraduras. Llegamos en {llegada}. Llama al {telefono}.",
+      "h1": "Cerrajeros en Pola de Siero, Lugones y todo Siero",
+      "intro": "Servicio de cerrajería en todo el concejo de Siero, de Lugones a la Pola y El Berrón. Estamos muy cerca: llegamos en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Cerrajero rápido en Siero",
+          "texto": [
+            "Siero es una de las zonas donde llegamos antes. Atendemos aperturas de puertas, llaves rotas, cerraduras bloqueadas y cambios de bombín en Pola de Siero, Lugones, El Berrón, Lieres, La Fresneda y el resto de parroquias del concejo, {horario}.",
+            "Antes de salir te damos el precio total por teléfono, con el desplazamiento incluido."
+          ]
+        },
+        {
+          "titulo": "Si acabas de estrenar vivienda en Lugones o La Fresneda",
+          "texto": [
+            "En las promociones nuevas, las llaves de obra pasan por muchas manos antes de la entrega: constructora, instaladores, inmobiliaria. Por eso recomendamos cambiar el bombín nada más recibir la vivienda.",
+            "Instalamos bombines antibumping y antiganzúa en el momento y, si la puerta lo admite, un escudo protector que impide arrancar el cilindro."
+          ]
+        },
+        {
+          "titulo": "Naves y negocios en El Berrón",
+          "texto": [
+            "También damos servicio a naves y locales de las zonas industriales del concejo: apertura de cierres metálicos, reparación de puertas de nave y cerraduras de seguridad para almacenes."
+          ]
+        }
+      ],
+      "barrios": [
+        "Pola de Siero", "Lugones", "El Berrón", "Lieres", "La Fresneda", "Valdesoto",
+        "Viella", "Granda", "Carbayín", "Santiago de Arenas"
+      ],
+      "faqs": [
+        { "pregunta": "¿Cuánto tardáis en llegar a Lugones o a la Pola?", "respuesta": "Normalmente entre {llegada}. Son de las zonas a las que llegamos más rápido." },
+        { "pregunta": "Acabo de comprar un piso nuevo, ¿debo cambiar la cerradura?", "respuesta": "Es muy recomendable. No sabes cuántas copias de las llaves de obra se han hecho. Cambiar el bombín es rápido y te garantiza que solo tú tienes llave." },
+        { "pregunta": "¿Abrís cierres metálicos de locales y naves?", "respuesta": "Sí. Abrimos y reparamos cierres enrollables, persianas metálicas y puertas de nave, y sustituimos sus cerraduras." }
+      ]
+    },
+    {
+      "slug": "cerrajeros-langreo",
+      "nombre": "Langreo",
+      "llegada": "35-50 min",
+      "titulo_seo": "Cerrajeros en Langreo, Sama y La Felguera ☎ {telefono}",
+      "descripcion_meta": "Cerrajero en Langreo y el Valle del Nalón: Sama, La Felguera, Ciaño, El Entrego. Apertura de puertas, cambio de cerraduras y blindajes. Llama al {telefono}.",
+      "h1": "Cerrajeros en Langreo y el Valle del Nalón",
+      "intro": "Cerrajería urgente en Sama, La Felguera y todo el Valle del Nalón. Precio cerrado por teléfono y llegada en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Cerrajero urgente en Langreo",
+          "texto": [
+            "Atendemos en todo el concejo de Langreo (Sama, La Felguera, Ciaño, Riaño, Barros, Lada, Tuilla) y en San Martín del Rey Aurelio (El Entrego y Sotrondio). Trabajamos {horario} y llegamos en {llegada}.",
+            "Abrimos puertas cerradas de golpe o con llave, sacamos llaves rotas del bombín y desbloqueamos cerraduras atascadas, casi siempre sin romper nada."
+          ]
+        },
+        {
+          "titulo": "Más seguridad para puertas antiguas",
+          "texto": [
+            "En el Nalón hay muchas viviendas con puertas de madera y cerraduras de hace décadas, fáciles de forzar. No siempre hace falta cambiar la puerta: podemos blindarla con chapa de acero, cambiar la cerradura por una de seguridad y añadir un escudo protector, por bastante menos dinero que una puerta nueva.",
+            "Te visitamos, valoramos la puerta y el marco y te damos un presupuesto por escrito sin compromiso."
+          ]
+        }
+      ],
+      "barrios": [
+        "Sama", "La Felguera", "Ciaño", "Riaño", "Barros", "Lada", "Tuilla",
+        "El Entrego", "Sotrondio"
+      ],
+      "faqs": [
+        { "pregunta": "¿Llegáis también a El Entrego y Sotrondio?", "respuesta": "Sí, damos servicio en todo el Valle del Nalón. Al llamar te indicamos el tiempo de llegada a tu dirección." },
+        { "pregunta": "¿Merece la pena blindar una puerta antigua?", "respuesta": "Si la puerta y el marco están en buen estado, sí: el blindaje con chapa de acero y una cerradura de seguridad mejoran mucho la protección por menos dinero que una puerta nueva." },
+        { "pregunta": "¿Venís también fines de semana a Langreo?", "respuesta": "Sí, trabajamos {horario}, también sábados, domingos y festivos." }
+      ]
+    },
+    {
+      "slug": "cerrajeros-mieres",
+      "nombre": "Mieres",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Mieres ☎ {telefono} | Urgentes, sin romper",
+      "descripcion_meta": "Cerrajero urgente en Mieres y el Valle del Caudal: Turón, Ujo, Figaredo, Pola de Lena. Aperturas sin romper y cambio de bombines. Llama al {telefono}.",
+      "h1": "Cerrajeros en Mieres y el Valle del Caudal",
+      "intro": "Aperturas, cambios de cerradura y urgencias en Mieres, Turón, Ujo y el resto del Caudal. Te damos el precio antes de salir y llegamos en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Cerrajero en Mieres a cualquier hora",
+          "texto": [
+            "Damos servicio en Mieres centro, Santullano, Ujo, Figaredo, Turón, Seana y Rioturbio, y también en Lena (Pola de Lena) y Aller (Moreda y Cabañaquinta). Trabajamos {horario}.",
+            "Te atiende directamente un cerrajero que te pregunta qué ha pasado y te dice el precio total, con desplazamiento, antes de salir."
+          ]
+        },
+        {
+          "titulo": "Pisos de alquiler y de estudiantes",
+          "texto": [
+            "Con el campus universitario, en Mieres hay muchos pisos que cambian de inquilinos cada curso. Si alquilas, te recomendamos cambiar el bombín entre un inquilino y otro: es rápido, económico y evita que antiguas copias de llaves sigan circulando.",
+            "Para propietarios con varios pisos podemos instalar bombines de seguridad y gestionar las copias de llaves de forma controlada."
+          ]
+        },
+        {
+          "titulo": "Cerraduras antiguas y casas de pueblo",
+          "texto": [
+            "En las casas de los pueblos del Caudal todavía se ven muchas cerraduras antiguas de llave grande. Las abrimos sin romperlas siempre que es posible y, si quieres más seguridad, las sustituimos por cerraduras modernas adaptadas a la puerta."
+          ]
+        }
+      ],
+      "barrios": [
+        "Mieres centro", "Santullano", "Ujo", "Figaredo", "Turón", "Seana", "Rioturbio",
+        "Pola de Lena", "Moreda", "Cabañaquinta"
+      ],
+      "faqs": [
+        { "pregunta": "¿Cubrís Pola de Lena y Moreda?", "respuesta": "Sí, damos servicio en todo el Valle del Caudal, incluidos Lena y Aller. Al llamar te decimos el tiempo de llegada." },
+        { "pregunta": "Alquilo un piso, ¿cada cuánto debo cambiar el bombín?", "respuesta": "Lo ideal es cambiarlo cada vez que cambian los inquilinos. Así te aseguras de que nadie conserva copias de las llaves." },
+        { "pregunta": "¿Podéis abrir una cerradura antigua sin romperla?", "respuesta": "En la mayoría de los casos sí. Si no fuera posible, te lo explicamos antes y te proponemos la solución más económica." }
+      ]
+    },
+    {
+      "slug": "cerrajeros-llanera",
+      "nombre": "Llanera",
+      "llegada": "20-35 min",
+      "titulo_seo": "Cerrajeros en Llanera, Posada y Lugo de Llanera ☎ {telefono}",
+      "descripcion_meta": "Cerrajero en Llanera: Posada, Lugo de Llanera, polígonos de Silvota y Asipo. Aperturas, cambio de cerraduras y amaestramiento para empresas. Llama al {telefono}.",
+      "h1": "Cerrajeros en Llanera para hogares y empresas",
+      "intro": "Cerrajería en Posada, Lugo de Llanera y los polígonos de Silvota y Asipo. Muy cerca de Oviedo: llegamos en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Cerrajero urgente en Llanera",
+          "texto": [
+            "Atendemos viviendas y urbanizaciones de Posada de Llanera, Lugo de Llanera, Ables, Coruño y Villabona. Abrimos puertas, sacamos llaves rotas y cambiamos bombines y cerraduras en la misma visita, {horario}.",
+            "Te damos el precio cerrado por teléfono antes de salir, para que sepas lo que vas a pagar."
+          ]
+        },
+        {
+          "titulo": "Cerrajería para empresas en Silvota, Asipo y el Parque Tecnológico",
+          "texto": [
+            "Llanera concentra muchas empresas, y ahí los problemas de cerrajería paran la actividad: una puerta de nave que no abre o un cierre metálico atascado a primera hora. Acudimos rápido para resolverlo.",
+            "También hacemos trabajos programados: amaestramiento de llaves (una llave maestra para la dirección y llaves parciales para cada zona), cerraduras antipánico en salidas de emergencia y cambio de cilindros cuando se va un empleado con llaves."
+          ]
+        }
+      ],
+      "barrios": [
+        "Posada de Llanera", "Lugo de Llanera", "Polígono de Silvota", "Polígono de Asipo",
+        "Parque Tecnológico de Asturias", "Ables", "Coruño", "Villabona"
+      ],
+      "faqs": [
+        { "pregunta": "¿Atendéis empresas de los polígonos de Silvota y Asipo?", "respuesta": "Sí. Abrimos y reparamos puertas de nave y cierres metálicos, y hacemos amaestramiento y cambio de cilindros con factura a nombre de la empresa." },
+        { "pregunta": "¿Cuánto tardáis en llegar a Posada o Lugo de Llanera?", "respuesta": "Normalmente entre {llegada}, porque estamos muy cerca." },
+        { "pregunta": "¿Qué es el amaestramiento de llaves?", "respuesta": "Es un sistema en el que cada llave abre solo las puertas que le corresponden, y una llave maestra las abre todas. Es muy útil en empresas y comunidades." }
+      ]
+    }
+  ],
+
   "faqs": [
     { "pregunta": "¿Cuánto tarda en llegar un cerrajero en {ciudad}?", "respuesta": "En {ciudad} ciudad solemos llegar en {tiempo_llegada} desde tu llamada. En localidades cercanas el tiempo puede ser algo mayor; te lo diremos al llamar." },
     { "pregunta": "¿Cuánto cuesta un cerrajero en {ciudad}?", "respuesta": "Depende del servicio, del tipo de puerta o cerradura y de la hora. Llámanos al {telefono}: te daremos un precio cerrado con el desplazamiento incluido antes de salir, sin compromiso." },

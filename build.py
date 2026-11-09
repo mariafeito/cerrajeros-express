@@ -100,6 +100,14 @@ ICONOS = {
 }
 
 
+LOCALIDADES = CONT.get("localidades", [])
+
+
+def tl(texto, loc):
+    """Sustituye {localidad} y {llegada} de una página de zona (el resto lo hace t/e)."""
+    return str(texto).replace("{localidad}", loc["nombre"]).replace("{llegada}", loc["llegada"])
+
+
 def ico(nombre, clase="ico"):
     return f'<svg class="{clase}" viewBox="0 0 24 24" aria-hidden="true">{ICONOS[nombre]}</svg>'
 
@@ -138,7 +146,8 @@ def schema_negocio():
         "telephone": TEL_E164,
         "priceRange": CFG.get("rango_precios", "€€"),
         "address": direccion,
-        "areaServed": [{"@type": "Place", "name": z} for z in [CFG["ciudad"]] + CFG.get("zonas", [])],
+        "areaServed": [{"@type": "Place", "name": z} for z in
+                       [CFG["ciudad"]] + [l["nombre"] for l in LOCALIDADES] + CFG.get("zonas", [])],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Servicios de cerrajería",
@@ -219,6 +228,16 @@ def tarjeta_servicio(s, raiz):
 </a>"""
 
 
+def tarjeta_localidad(loc, raiz):
+    return f"""
+<a class="card" href="{raiz}{loc['slug']}/">
+  <span class="card__ico">{ico('pin')}</span>
+  <h3>Cerrajeros en {e(loc['nombre'])}</h3>
+  <p>Llegada en {e(loc['llegada'])} · {e(', '.join(loc['barrios'][:3]))}...</p>
+  <span class="card__more">Ver zona</span>
+</a>"""
+
+
 def bloque_faq(faqs, titulo="Preguntas frecuentes", id_="preguntas", alt=False):
     items = "".join(
         f"<details><summary>{e(f['pregunta'])}</summary><p>{e(f['respuesta'])}</p></details>"
@@ -267,7 +286,9 @@ def plantilla(titulo, descripcion, ruta, cuerpo, raiz, schemas=(), indexar=True)
     servicios_footer = "".join(
         f'<li><a href="{raiz}{s["slug"]}/">{e(s["nombre"])}</a></li>' for s in CONT["servicios"]
     )
-    zonas_footer = "".join(f"<li>{e(z)}</li>" for z in CFG.get("zonas", [])[:8])
+    zonas_footer = "".join(
+        f'<li><a href="{raiz}{l["slug"]}/">Cerrajeros en {e(l["nombre"])}</a></li>' for l in LOCALIDADES
+    ) or "".join(f"<li>{e(z)}</li>" for z in CFG.get("zonas", [])[:8])
     if CFG.get("mostrar_direccion") and CFG.get("direccion"):
         direccion = f'{e(CFG["direccion"])}, {e(CFG.get("codigo_postal", ""))} {e(CFG["ciudad"])} ({e(CFG["provincia"])})'
     else:
@@ -378,6 +399,10 @@ def pagina_inicio():
     )
     parrafos = "".join(f"<p>{e(p)}</p>" for p in ini["texto"])
     zonas = "".join(f'<li>{ico("pin")}{e(z)}</li>' for z in CFG.get("zonas", []))
+    tarjetas_loc = (
+        f'<div class="cards" style="margin-bottom:2rem">{"".join(tarjeta_localidad(l, raiz) for l in LOCALIDADES)}</div>'
+        if LOCALIDADES else ""
+    )
 
     if CFG.get("mostrar_direccion") and CFG.get("direccion"):
         etiqueta_dir = "Dirección"
@@ -462,6 +487,7 @@ def pagina_inicio():
       <h2>Cerrajeros en {e(CFG['ciudad'])} y alrededores</h2>
       <p>Damos servicio en todos los barrios de {e(CFG['ciudad'])} y en las localidades cercanas de {e(CFG['provincia'])}.</p>
     </div>
+    {tarjetas_loc}
     <ul class="chips">{zonas}</ul>
   </div>
 </section>
@@ -569,6 +595,101 @@ def pagina_servicio(s):
     return plantilla(s["titulo_seo"], s["descripcion_meta"], ruta, cuerpo, raiz, schemas)
 
 
+def pagina_localidad(loc):
+    raiz = "../"
+    ruta = loc["slug"] + "/"
+    secciones = "".join(
+        f"<h2>{e(tl(sec['titulo'], loc))}</h2>" + "".join(f"<p>{e(tl(p, loc))}</p>" for p in sec["texto"])
+        for sec in loc["secciones"]
+    )
+    barrios = "".join(f'<li>{ico("pin")}{e(b)}</li>' for b in loc["barrios"])
+    tarjetas = "".join(tarjeta_servicio(s, raiz) for s in CONT["servicios"])
+    otras = "".join(tarjeta_localidad(o, raiz) for o in LOCALIDADES if o["slug"] != loc["slug"])
+    faqs = [{"pregunta": tl(f["pregunta"], loc), "respuesta": tl(f["respuesta"], loc)} for f in loc.get("faqs", [])]
+    nombre = loc["nombre"]
+
+    cuerpo = f"""
+<section class="hero hero--page">
+  <div class="wrap hero__in">
+    <div class="hero__text">
+      <nav class="crumbs" aria-label="Migas de pan"><ol>
+        <li><a href="{raiz}">Inicio</a></li>
+        <li><a href="{raiz}#zonas">Zonas</a></li>
+        <li aria-current="page">{e(nombre)}</li>
+      </ol></nav>
+      <h1>{e(tl(loc['h1'], loc))}</h1>
+      <p class="lead">{e(tl(loc['intro'], loc))}</p>
+    </div>
+    <div class="hero__cta">{tarjeta_telefono("Cerrajero disponible en " + nombre)}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <article class="prose">
+      {secciones}
+      <a class="btn btn--call btn--lg" href="{TEL_HREF}">{ico("telefono")}Llamar al {e(TEL)}</a>
+    </article>
+    <aside class="box">
+      <h3>Cerrajero en {e(nombre)}</h3>
+      <p>Llámanos y te damos precio cerrado al momento.</p>
+      <a class="bigphone bigphone--sm" href="{TEL_HREF}">{ico("telefono")}<span>{e(TEL)}</span></a>
+      {lista_checks(['Llegada en ' + loc['llegada'], 'Servicio {horario}', 'Precio cerrado antes de salir', 'Factura y garantía'])}
+      {boton_wa()}
+    </aside>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="kicker">Zonas de servicio</p>
+      <h2>Barrios y localidades donde trabajamos en {e(nombre)}</h2>
+    </div>
+    <ul class="chips">{barrios}</ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="kicker">Servicios</p>
+      <h2>Servicios de cerrajería en {e(nombre)}</h2>
+    </div>
+    <div class="cards">{tarjetas}</div>
+  </div>
+</section>
+
+{banda_cta("¿Necesitas un cerrajero en " + nombre + "?", "Te atendemos {horario}. Llegamos en " + loc['llegada'] + ".")}
+
+{bloque_faq(faqs, "Preguntas frecuentes sobre cerrajeros en " + nombre, "preguntas", alt=True) if faqs else ""}
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__head"><h2>Cerrajeros en otras zonas de {e(CFG['provincia'])}</h2></div>
+    <div class="cards">{otras}</div>
+  </div>
+</section>
+"""
+    schemas = [
+        schema_negocio(),
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": f"Cerrajeros en {nombre}",
+            "serviceType": "Cerrajería",
+            "description": t(tl(loc["descripcion_meta"], loc)),
+            "url": url(ruta),
+            "provider": {"@id": NEGOCIO_ID},
+            "areaServed": {"@type": "City", "name": nombre},
+        },
+        schema_migas([("Inicio", ""), (f"Cerrajeros en {nombre}", ruta)]),
+    ]
+    if faqs:
+        schemas.append(schema_faq(faqs))
+    return plantilla(tl(loc["titulo_seo"], loc), tl(loc["descripcion_meta"], loc), ruta, cuerpo, raiz, schemas)
+
+
 def pagina_legal(slug, titulo, parrafos):
     raiz = "../"
     contenido = "".join(
@@ -661,6 +782,9 @@ def construir():
     for s in CONT["servicios"]:
         escribir(f"{s['slug']}/index.html", pagina_servicio(s))
         rutas_sitemap.append((s["slug"] + "/", "0.8"))
+    for loc in LOCALIDADES:
+        escribir(f"{loc['slug']}/index.html", pagina_localidad(loc))
+        rutas_sitemap.append((loc["slug"] + "/", "0.9"))
     for slug, (titulo, parrafos) in paginas_legales().items():
         escribir(f"{slug}/index.html", pagina_legal(slug, titulo, parrafos))
     escribir("404.html", pagina_404())

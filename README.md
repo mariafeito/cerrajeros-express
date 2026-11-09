@@ -31,6 +31,12 @@ Lo que tienes que subir al hosting es el contenido de **`public/`**. No hace fal
 Copia un bloque dentro de `"servicios"` en `contenido.json`, cambia el `slug` (será la URL, p. ej.
 `/cerrajero-comunidades/`) y los textos. Iconos disponibles: `puerta`, `reloj`, `candado`, `escudo`, `caja`, `coche`, `llave`.
 
+## Añadir una zona (página por ciudad)
+
+Copia un bloque dentro de `"localidades"` en `contenido.json` y cambia `slug` (p. ej. `cerrajeros-aviles`),
+`nombre`, `llegada`, textos, barrios y preguntas. Usa `{localidad}` y `{llegada}` dentro de sus textos.
+**Escribe textos distintos para cada zona**: si solo cambias el nombre de la ciudad, Google lo trata como contenido duplicado.
+
 ## SEO incluido
 
 - Una página por servicio con URL limpia, `<title>` y `meta description` propios, H1 con la ciudad
