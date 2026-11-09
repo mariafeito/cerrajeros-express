@@ -101,6 +101,8 @@ ICONOS = {
 
 
 LOCALIDADES = CONT.get("localidades", [])
+BARRIOS = CONT.get("barrios", [])      # barrios de la ciudad principal (una página por barrio)
+GUIAS = CONT.get("guias", [])          # artículos / guías prácticas en /guias/
 
 
 def tl(texto, loc):
@@ -143,11 +145,14 @@ def schema_negocio():
         "@id": NEGOCIO_ID,
         "name": CFG["nombre_negocio"],
         "url": url(),
+        "logo": url("assets/img/logo.png"),
+        "image": url("assets/img/portada.png"),
         "telephone": TEL_E164,
         "priceRange": CFG.get("rango_precios", "€€"),
         "address": direccion,
         "areaServed": [{"@type": "Place", "name": z} for z in
-                       [CFG["ciudad"]] + [l["nombre"] for l in LOCALIDADES] + CFG.get("zonas", [])],
+                       list(dict.fromkeys([CFG["ciudad"]] + [l["nombre"] for l in LOCALIDADES]
+                                          + [b["nombre"] for b in BARRIOS] + CFG.get("zonas", [])))],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Servicios de cerrajería",
@@ -238,6 +243,42 @@ def tarjeta_localidad(loc, raiz):
 </a>"""
 
 
+def tarjeta_barrio(b, raiz):
+    return f"""
+<a class="card card--compact" href="{raiz}{b['slug']}/">
+  <h3>{e(b['nombre'])}</h3>
+  <p>Llegada en {e(b['llegada'])}</p>
+  <span class="card__more">Cerrajeros en {e(b['nombre'])}</span>
+</a>"""
+
+
+def tarjeta_guia(g, raiz):
+    return f"""
+<a class="card" href="{raiz}guias/{g['slug']}/">
+  <span class="card__tag">Guía</span>
+  <h3>{e(g['titulo'])}</h3>
+  <p>{e(g['resumen'])}</p>
+  <span class="card__more">Leer guía</span>
+</a>"""
+
+
+def bloque_guias(guias, raiz, titulo="Guías prácticas", alt=False, max_=3):
+    if not guias:
+        return ""
+    tarjetas = "".join(tarjeta_guia(g, raiz) for g in guias[:max_])
+    return f"""
+<section class="section{' section--alt' if alt else ''}">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="kicker">Consejos de cerrajero</p>
+      <h2>{e(titulo)}</h2>
+    </div>
+    <div class="cards">{tarjetas}</div>
+    <p class="center"><a class="btn btn--wa" href="{raiz}guias/">Ver todas las guías</a></p>
+  </div>
+</section>"""
+
+
 def bloque_faq(faqs, titulo="Preguntas frecuentes", id_="preguntas", alt=False):
     items = "".join(
         f"<details><summary>{e(f['pregunta'])}</summary><p>{e(f['respuesta'])}</p></details>"
@@ -289,6 +330,10 @@ def plantilla(titulo, descripcion, ruta, cuerpo, raiz, schemas=(), indexar=True)
     zonas_footer = "".join(
         f'<li><a href="{raiz}{l["slug"]}/">Cerrajeros en {e(l["nombre"])}</a></li>' for l in LOCALIDADES
     ) or "".join(f"<li>{e(z)}</li>" for z in CFG.get("zonas", [])[:8])
+    if BARRIOS:
+        zonas_footer = f'<li><a href="{raiz}#barrios">Barrios de {e(CFG["ciudad"])}</a></li>' + zonas_footer
+    guias_footer = f'<li><a href="{raiz}guias/">Guías y consejos</a></li>' if GUIAS else ""
+    guias_nav = f'<a href="{raiz}guias/">Guías</a>' if GUIAS else ""
     if CFG.get("mostrar_direccion") and CFG.get("direccion"):
         direccion = f'{e(CFG["direccion"])}, {e(CFG.get("codigo_postal", ""))} {e(CFG["ciudad"])} ({e(CFG["provincia"])})'
     else:
@@ -315,6 +360,10 @@ def plantilla(titulo, descripcion, ruta, cuerpo, raiz, schemas=(), indexar=True)
 <meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(descripcion)}">
 <meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{url('assets/img/portada.png')}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#10233A">
 <meta name="format-detection" content="telephone=yes">
 <link rel="icon" href="{raiz}assets/favicon.svg" type="image/svg+xml">
@@ -331,6 +380,7 @@ def plantilla(titulo, descripcion, ruta, cuerpo, raiz, schemas=(), indexar=True)
     <nav class="nav" aria-label="Principal">
       <a href="{raiz}#servicios">Servicios</a>
       <a href="{raiz}#zonas">Zonas</a>
+      {guias_nav}
       <a href="{raiz}#preguntas">Preguntas</a>
       <a href="{raiz}#contacto">Contacto</a>
     </nav>
@@ -365,6 +415,7 @@ def plantilla(titulo, descripcion, ruta, cuerpo, raiz, schemas=(), indexar=True)
       <div>
         <p class="footer__title">Información</p>
         <ul>
+          {guias_footer}
           <li><a href="{raiz}aviso-legal/">Aviso legal</a></li>
           <li><a href="{raiz}privacidad/">Política de privacidad</a></li>
           <li><a href="{raiz}cookies/">Política de cookies</a></li>
@@ -398,7 +449,14 @@ def pagina_inicio():
         f'<li class="step"><h3>{e(p["titulo"])}</h3><p>{e(p["texto"])}</p></li>' for p in ini["pasos"]
     )
     parrafos = "".join(f"<p>{e(p)}</p>" for p in ini["texto"])
-    zonas = "".join(f'<li>{ico("pin")}{e(z)}</li>' for z in CFG.get("zonas", []))
+    con_pagina = {b["nombre"].lower() for b in BARRIOS} | {l["nombre"].lower() for l in LOCALIDADES}
+    zonas = "".join(f'<li>{ico("pin")}{e(z)}</li>' for z in CFG.get("zonas", []) if z.lower() not in con_pagina)
+    bloque_barrios = (
+        f'<h3 class="subhead" id="barrios">Barrios de {e(CFG["ciudad"])}</h3>'
+        f'<div class="cards cards--4">{"".join(tarjeta_barrio(b, raiz) for b in BARRIOS)}</div>'
+        f'<h3 class="subhead">Otras localidades de {e(CFG["provincia"])}</h3>'
+        if BARRIOS else ""
+    )
     tarjetas_loc = (
         f'<div class="cards" style="margin-bottom:2rem">{"".join(tarjeta_localidad(l, raiz) for l in LOCALIDADES)}</div>'
         if LOCALIDADES else ""
@@ -487,12 +545,15 @@ def pagina_inicio():
       <h2>Cerrajeros en {e(CFG['ciudad'])} y alrededores</h2>
       <p>Damos servicio en todos los barrios de {e(CFG['ciudad'])} y en las localidades cercanas de {e(CFG['provincia'])}.</p>
     </div>
+    {bloque_barrios}
     {tarjetas_loc}
     <ul class="chips">{zonas}</ul>
   </div>
 </section>
 
 {bloque_faq(CONT['faqs'], alt=True)}
+
+{bloque_guias(GUIAS, raiz, "Guías prácticas de cerrajería")}
 
 <section class="section" id="contacto">
   <div class="wrap">
@@ -530,6 +591,7 @@ def pagina_servicio(s):
     )
     otros = "".join(tarjeta_servicio(o, raiz) for o in CONT["servicios"] if o["slug"] != s["slug"])
     faqs = s.get("faqs", [])
+    guias_rel = [g for g in GUIAS if g.get("servicio_relacionado") == s["slug"]]
 
     cuerpo = f"""
 <section class="hero hero--page">
@@ -569,6 +631,8 @@ def pagina_servicio(s):
 
 {bloque_faq(faqs, "Preguntas frecuentes sobre " + s['nombre'].lower(), "preguntas", alt=True) if faqs else ""}
 
+{bloque_guias(guias_rel, raiz, "Guías relacionadas")}
+
 <section class="section">
   <div class="wrap">
     <div class="section__head"><h2>Otros servicios de cerrajería en {e(CFG['ciudad'])}</h2></div>
@@ -595,7 +659,7 @@ def pagina_servicio(s):
     return plantilla(s["titulo_seo"], s["descripcion_meta"], ruta, cuerpo, raiz, schemas)
 
 
-def pagina_localidad(loc):
+def pagina_localidad(loc, es_barrio=False):
     raiz = "../"
     ruta = loc["slug"] + "/"
     secciones = "".join(
@@ -604,9 +668,24 @@ def pagina_localidad(loc):
     )
     barrios = "".join(f'<li>{ico("pin")}{e(b)}</li>' for b in loc["barrios"])
     tarjetas = "".join(tarjeta_servicio(s, raiz) for s in CONT["servicios"])
-    otras = "".join(tarjeta_localidad(o, raiz) for o in LOCALIDADES if o["slug"] != loc["slug"])
     faqs = [{"pregunta": tl(f["pregunta"], loc), "respuesta": tl(f["respuesta"], loc)} for f in loc.get("faqs", [])]
     nombre = loc["nombre"]
+    ciudad = CFG["ciudad"]
+    if es_barrio:
+        otras = "".join(tarjeta_barrio(o, raiz) for o in BARRIOS if o["slug"] != loc["slug"])
+        titulo_otras = f"Cerrajeros en otros barrios de {ciudad}"
+        clase_otras = "cards cards--4"
+        miga_padre = f'<li><a href="{raiz}#barrios">Barrios de {e(ciudad)}</a></li>'
+        titulo_chips = f"Calles y zonas de {nombre} donde trabajamos"
+        area = {"@type": "Place", "name": f"{nombre}, {ciudad}",
+                "containedInPlace": {"@type": "City", "name": ciudad}}
+    else:
+        otras = "".join(tarjeta_localidad(o, raiz) for o in LOCALIDADES if o["slug"] != loc["slug"])
+        titulo_otras = f"Cerrajeros en otras zonas de {CFG['provincia']}"
+        clase_otras = "cards"
+        miga_padre = f'<li><a href="{raiz}#zonas">Zonas</a></li>'
+        titulo_chips = f"Barrios y localidades donde trabajamos en {nombre}"
+        area = {"@type": "City", "name": nombre}
 
     cuerpo = f"""
 <section class="hero hero--page">
@@ -614,7 +693,7 @@ def pagina_localidad(loc):
     <div class="hero__text">
       <nav class="crumbs" aria-label="Migas de pan"><ol>
         <li><a href="{raiz}">Inicio</a></li>
-        <li><a href="{raiz}#zonas">Zonas</a></li>
+        {miga_padre}
         <li aria-current="page">{e(nombre)}</li>
       </ol></nav>
       <h1>{e(tl(loc['h1'], loc))}</h1>
@@ -644,7 +723,7 @@ def pagina_localidad(loc):
   <div class="wrap">
     <div class="section__head">
       <p class="kicker">Zonas de servicio</p>
-      <h2>Barrios y localidades donde trabajamos en {e(nombre)}</h2>
+      <h2>{e(titulo_chips)}</h2>
     </div>
     <ul class="chips">{barrios}</ul>
   </div>
@@ -666,8 +745,8 @@ def pagina_localidad(loc):
 
 <section class="section">
   <div class="wrap">
-    <div class="section__head"><h2>Cerrajeros en otras zonas de {e(CFG['provincia'])}</h2></div>
-    <div class="cards">{otras}</div>
+    <div class="section__head"><h2>{e(titulo_otras)}</h2></div>
+    <div class="{clase_otras}">{otras}</div>
   </div>
 </section>
 """
@@ -681,13 +760,123 @@ def pagina_localidad(loc):
             "description": t(tl(loc["descripcion_meta"], loc)),
             "url": url(ruta),
             "provider": {"@id": NEGOCIO_ID},
-            "areaServed": {"@type": "City", "name": nombre},
+            "areaServed": area,
         },
         schema_migas([("Inicio", ""), (f"Cerrajeros en {nombre}", ruta)]),
     ]
     if faqs:
         schemas.append(schema_faq(faqs))
     return plantilla(tl(loc["titulo_seo"], loc), tl(loc["descripcion_meta"], loc), ruta, cuerpo, raiz, schemas)
+
+
+def pagina_guia(g):
+    raiz = "../../"
+    ruta = f"guias/{g['slug']}/"
+    indice = "".join(
+        f'<li><a href="#s{i}">{e(sec["titulo"])}</a></li>' for i, sec in enumerate(g["secciones"], 1)
+    )
+    secciones = "".join(
+        f'<h2 id="s{i}">{e(sec["titulo"])}</h2>' + "".join(f"<p>{e(p)}</p>" for p in sec["texto"])
+        for i, sec in enumerate(g["secciones"], 1)
+    )
+    pasos = ""
+    if g.get("pasos"):
+        pasos = '<div class="note"><h2>Resumen rápido</h2><ol>' + "".join(
+            f"<li>{e(p)}</li>" for p in g["pasos"]) + "</ol></div>"
+    serv = next((s for s in CONT["servicios"] if s["slug"] == g.get("servicio_relacionado")), None)
+    caja_serv = (
+        f'<p>Servicio relacionado: <a href="{raiz}{serv["slug"]}/">{e(serv["nombre"])} en {e(CFG["ciudad"])}</a></p>'
+        if serv else ""
+    )
+    otras = [o for o in GUIAS if o["slug"] != g["slug"]]
+    faqs = g.get("faqs", [])
+
+    cuerpo = f"""
+<section class="hero hero--page hero--article">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><ol>
+      <li><a href="{raiz}">Inicio</a></li>
+      <li><a href="{raiz}guias/">Guías</a></li>
+      <li aria-current="page">{e(g['titulo'])}</li>
+    </ol></nav>
+    <h1>{e(g['titulo'])}</h1>
+    <p class="lead">{e(g['resumen'])}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <article class="prose">
+      <nav class="toc" aria-label="En esta guía"><p>En esta guía</p><ol>{indice}</ol></nav>
+      {pasos}
+      {secciones}
+    </article>
+    <aside class="box">
+      <h3>¿Necesitas un cerrajero ahora?</h3>
+      <p>Te damos precio cerrado por teléfono antes de salir.</p>
+      <a class="bigphone bigphone--sm" href="{TEL_HREF}">{ico("telefono")}<span>{e(TEL)}</span></a>
+      {lista_checks(['Llegada en {tiempo_llegada}', 'Servicio {horario}', 'Factura válida para el seguro'])}
+      {caja_serv}
+      {boton_wa()}
+    </aside>
+  </div>
+</section>
+
+{bloque_faq(faqs, "Preguntas frecuentes", "preguntas", alt=True) if faqs else ""}
+
+{bloque_guias(otras, raiz, "Otras guías que te pueden servir")}
+
+{banda_cta()}
+"""
+    schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": t(g["titulo"]),
+            "description": t(g["descripcion_meta"]),
+            "url": url(ruta),
+            "inLanguage": "es-ES",
+            "dateModified": HOY,
+            "author": {"@id": NEGOCIO_ID},
+            "publisher": {"@id": NEGOCIO_ID},
+            "mainEntityOfPage": url(ruta),
+        },
+        schema_negocio(),
+        schema_migas([("Inicio", ""), ("Guías", "guias/"), (t(g["titulo"]), ruta)]),
+    ]
+    if faqs:
+        schemas.append(schema_faq(faqs))
+    return plantilla(g["titulo_seo"], g["descripcion_meta"], ruta, cuerpo, raiz, schemas)
+
+
+def pagina_guias():
+    raiz = "../"
+    tarjetas = "".join(tarjeta_guia(g, raiz) for g in GUIAS)
+    cuerpo = f"""
+<section class="hero hero--page hero--article">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><ol>
+      <li><a href="{raiz}">Inicio</a></li>
+      <li aria-current="page">Guías</li>
+    </ol></nav>
+    <h1>Guías prácticas de cerrajería</h1>
+    <p class="lead">Qué hacer en una urgencia, cómo elegir cerrajero sin sorpresas y cómo mejorar la seguridad de tu puerta. Explicado por cerrajeros de {e(CFG['ciudad'])}.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap"><div class="cards">{tarjetas}</div></div>
+</section>
+{banda_cta()}
+"""
+    schemas = [
+        {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Guías prácticas de cerrajería",
+         "url": url("guias/"),
+         "hasPart": [{"@type": "Article", "headline": t(g["titulo"]), "url": url(f"guias/{g['slug']}/")} for g in GUIAS]},
+        schema_migas([("Inicio", ""), ("Guías", "guias/")]),
+    ]
+    return plantilla(f"Guías de cerrajería: consejos prácticos | {CFG['nombre_negocio']}",
+                     f"Guías de cerrajeros de {CFG['ciudad']}: qué hacer si te quedas fuera, cómo evitar timos, bombines antibumping y más.",
+                     "guias/", cuerpo, raiz, schemas)
 
 
 def pagina_legal(slug, titulo, parrafos):
@@ -785,6 +974,19 @@ def construir():
     for loc in LOCALIDADES:
         escribir(f"{loc['slug']}/index.html", pagina_localidad(loc))
         rutas_sitemap.append((loc["slug"] + "/", "0.9"))
+    for b in BARRIOS:
+        escribir(f"{b['slug']}/index.html", pagina_localidad(b, es_barrio=True))
+        rutas_sitemap.append((b["slug"] + "/", "0.8"))
+    if GUIAS:
+        escribir("guias/index.html", pagina_guias())
+        rutas_sitemap.append(("guias/", "0.6"))
+        for g in GUIAS:
+            escribir(f"guias/{g['slug']}/index.html", pagina_guia(g))
+            rutas_sitemap.append((f"guias/{g['slug']}/", "0.6"))
+    slugs = [s["slug"] for s in CONT["servicios"]] + [l["slug"] for l in LOCALIDADES] + [b["slug"] for b in BARRIOS]
+    repetidos = {x for x in slugs if slugs.count(x) > 1}
+    if repetidos:
+        sys.exit(f"ERROR: slugs repetidos en contenido.json: {', '.join(sorted(repetidos))}")
     for slug, (titulo, parrafos) in paginas_legales().items():
         escribir(f"{slug}/index.html", pagina_legal(slug, titulo, parrafos))
     escribir("404.html", pagina_404())

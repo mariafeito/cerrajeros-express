@@ -27,13 +27,24 @@
       "Factura válida para tu seguro de hogar"
     ],
     "pasos": [
-      { "titulo": "Nos llamas", "texto": "Te atiende directamente un cerrajero, no una centralita. Cuéntanos qué te ha pasado." },
-      { "titulo": "Precio cerrado", "texto": "Te damos el precio total por teléfono, con desplazamiento incluido. Sin compromiso." },
-      { "titulo": "Llegamos rápido", "texto": "Un técnico sale hacia tu dirección y llega en {tiempo_llegada} a {ciudad} ciudad." },
-      { "titulo": "Problema resuelto", "texto": "Abrimos, reparamos o cambiamos la cerradura y te entregamos factura y garantía." }
+      {
+        "titulo": "Nos llamas",
+        "texto": "Te atiende directamente un cerrajero, no una centralita. Cuéntanos qué te ha pasado."
+      },
+      {
+        "titulo": "Precio cerrado",
+        "texto": "Te damos el precio total por teléfono, con desplazamiento incluido. Sin compromiso."
+      },
+      {
+        "titulo": "Llegamos rápido",
+        "texto": "Un técnico sale hacia tu dirección y llega en {tiempo_llegada} a {ciudad} ciudad."
+      },
+      {
+        "titulo": "Problema resuelto",
+        "texto": "Abrimos, reparamos o cambiamos la cerradura y te entregamos factura y garantía."
+      }
     ]
   },
-
   "servicios": [
     {
       "slug": "apertura-de-puertas",
@@ -68,8 +79,14 @@
         "Portales, trasteros y garajes"
       ],
       "faqs": [
-        { "pregunta": "¿Cuánto cuesta abrir una puerta en {ciudad}?", "respuesta": "Depende del tipo de puerta, de cómo esté cerrada y de la hora. Llámanos al {telefono}, cuéntanos tu caso y te daremos un precio cerrado con el desplazamiento incluido antes de salir." },
-        { "pregunta": "¿Tendré que cambiar la cerradura después de abrir?", "respuesta": "En la mayoría de casos no. Usamos técnicas no destructivas y la cerradura sigue funcionando con tus llaves. Solo si es imposible abrirla de otra forma o si la has perdido y quieres más seguridad, te propondremos cambiar el bombín." }
+        {
+          "pregunta": "¿Cuánto cuesta abrir una puerta en {ciudad}?",
+          "respuesta": "Depende del tipo de puerta, de cómo esté cerrada y de la hora. Llámanos al {telefono}, cuéntanos tu caso y te daremos un precio cerrado con el desplazamiento incluido antes de salir."
+        },
+        {
+          "pregunta": "¿Tendré que cambiar la cerradura después de abrir?",
+          "respuesta": "En la mayoría de casos no. Usamos técnicas no destructivas y la cerradura sigue funcionando con tus llaves. Solo si es imposible abrirla de otra forma o si la has perdido y quieres más seguridad, te propondremos cambiar el bombín."
+        }
       ]
     },
     {
@@ -105,8 +122,14 @@
         "Viviendas, comunidades y negocios"
       ],
       "faqs": [
-        { "pregunta": "¿Es más caro llamar de noche o en festivo?", "respuesta": "El servicio nocturno y en festivos tiene un recargo, pero siempre te diremos el precio exacto por teléfono antes de salir, para que decidas sin sorpresas." },
-        { "pregunta": "¿Cuánto tardáis en llegar?", "respuesta": "En {ciudad} ciudad solemos llegar en {tiempo_llegada}. En localidades cercanas el tiempo puede ser algo mayor; te lo indicaremos al llamar." }
+        {
+          "pregunta": "¿Es más caro llamar de noche o en festivo?",
+          "respuesta": "El servicio nocturno y en festivos tiene un recargo, pero siempre te diremos el precio exacto por teléfono antes de salir, para que decidas sin sorpresas."
+        },
+        {
+          "pregunta": "¿Cuánto tardáis en llegar?",
+          "respuesta": "En {ciudad} ciudad solemos llegar en {tiempo_llegada}. En localidades cercanas el tiempo puede ser algo mayor; te lo indicaremos al llamar."
+        }
       ]
     },
     {
@@ -142,8 +165,14 @@
         "Cerraduras electrónicas"
       ],
       "faqs": [
-        { "pregunta": "¿Cuánto se tarda en cambiar un bombín?", "respuesta": "Un cambio de bombín estándar lleva entre 15 y 30 minutos. Si hay que sustituir la cerradura completa puede llevar algo más." },
-        { "pregunta": "¿Qué bombín me recomendáis?", "respuesta": "Depende de tu puerta y del nivel de seguridad que busques. Por teléfono o en la visita te explicamos las opciones con precio cerrado de cada una." }
+        {
+          "pregunta": "¿Cuánto se tarda en cambiar un bombín?",
+          "respuesta": "Un cambio de bombín estándar lleva entre 15 y 30 minutos. Si hay que sustituir la cerradura completa puede llevar algo más."
+        },
+        {
+          "pregunta": "¿Qué bombín me recomendáis?",
+          "respuesta": "Depende de tu puerta y del nivel de seguridad que busques. Por teléfono o en la visita te explicamos las opciones con precio cerrado de cada una."
+        }
       ]
     },
     {
@@ -178,8 +207,14 @@
         "Reparación y ajuste de puertas"
       ],
       "faqs": [
-        { "pregunta": "¿Qué diferencia hay entre una puerta blindada y una acorazada?", "respuesta": "La blindada tiene un alma de madera reforzada con chapas de acero; la acorazada tiene una estructura completa de acero, por lo que ofrece mayor resistencia frente a intentos de forzado." },
-        { "pregunta": "¿Se puede blindar mi puerta actual?", "respuesta": "En la mayoría de casos sí. Valoramos el estado de la puerta y el marco y te proponemos la mejor solución con presupuesto cerrado." }
+        {
+          "pregunta": "¿Qué diferencia hay entre una puerta blindada y una acorazada?",
+          "respuesta": "La blindada tiene un alma de madera reforzada con chapas de acero; la acorazada tiene una estructura completa de acero, por lo que ofrece mayor resistencia frente a intentos de forzado."
+        },
+        {
+          "pregunta": "¿Se puede blindar mi puerta actual?",
+          "respuesta": "En la mayoría de casos sí. Valoramos el estado de la puerta y el marco y te proponemos la mejor solución con presupuesto cerrado."
+        }
       ]
     },
     {
@@ -214,8 +249,14 @@
         "Cajas de hotel y negocio"
       ],
       "faqs": [
-        { "pregunta": "¿Se rompe la caja fuerte al abrirla?", "respuesta": "Siempre intentamos primero técnicas no destructivas. Si no es posible, realizamos una apertura controlada que permita reparar la caja después." },
-        { "pregunta": "¿Instaláis cajas fuertes en el día?", "respuesta": "Las de sobreponer sí, normalmente. Las empotradas requieren obra y te daremos fecha y presupuesto tras ver el lugar de instalación." }
+        {
+          "pregunta": "¿Se rompe la caja fuerte al abrirla?",
+          "respuesta": "Siempre intentamos primero técnicas no destructivas. Si no es posible, realizamos una apertura controlada que permita reparar la caja después."
+        },
+        {
+          "pregunta": "¿Instaláis cajas fuertes en el día?",
+          "respuesta": "Las de sobreponer sí, normalmente. Las empotradas requieren obra y te daremos fecha y presupuesto tras ver el lugar de instalación."
+        }
       ]
     },
     {
@@ -244,11 +285,56 @@
         "Servicio {horario}"
       ],
       "faqs": [
-        { "pregunta": "¿Puede dañarse el coche al abrirlo?", "respuesta": "No. Utilizamos herramientas profesionales de apertura sin daños, las mismas que emplean los servicios de asistencia en carretera." }
+        {
+          "pregunta": "¿Puede dañarse el coche al abrirlo?",
+          "respuesta": "No. Utilizamos herramientas profesionales de apertura sin daños, las mismas que emplean los servicios de asistencia en carretera."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeria-comunidades-y-empresas",
+      "icono": "llave",
+      "nombre": "Comunidades y empresas",
+      "h1": "Cerrajería para comunidades y empresas en {ciudad}",
+      "titulo_seo": "Cerrajería para Comunidades y Empresas en {ciudad} ☎ {telefono}",
+      "descripcion_meta": "Cerrajería en {ciudad} para comunidades, administradores de fincas y negocios: portales, garajes, amaestramiento y cierres metálicos. Llama al {telefono}.",
+      "resumen": "Portales, garajes, trasteros, locales y oficinas. Amaestramiento de llaves, cierres metálicos, barras antipánico y mantenimiento para administradores de fincas.",
+      "secciones": [
+        {
+          "titulo": "Comunidades de vecinos y administradores de fincas",
+          "texto": [
+            "En una comunidad, una cerradura de portal que falla o una puerta de garaje que no cierra afecta a todos los vecinos. En {ciudad} reparamos y sustituimos cerraduras de portales, garajes y trasteros, ajustamos cierrapuertas y hacemos copias controladas de llaves para los vecinos.",
+            "Para administradores de fincas ofrecemos mantenimiento de la cerrajería del edificio: revisión periódica de cerraduras y accesos, avisos atendidos {horario} y factura a nombre de la comunidad. Con el amaestramiento de llaves, cada vecino abre con su llave su vivienda y las zonas comunes que le corresponden, como portal, garaje o trastero."
+          ]
+        },
+        {
+          "titulo": "Locales, oficinas y naves",
+          "texto": [
+            "Abrimos, reparamos y sustituimos cerraduras de locales comerciales y oficinas, cierres metálicos y persianas enrollables. Instalamos barras antipánico en salidas de emergencia y amaestramos las llaves para que cada persona tenga acceso solo a las zonas que necesita.",
+            "Cuando un empleado se va con llaves, cambiamos los cilindros afectados en una sola visita, porque llevamos bombines de seguridad en la furgoneta. Te damos precio cerrado antes de empezar, emitimos factura a nombre de la empresa y podemos acordar el trabajo fuera de tu horario para no interrumpir la actividad."
+          ]
+        }
+      ],
+      "puntos": [
+        "Portales, garajes y trasteros",
+        "Amaestramiento de llaves",
+        "Cierres metálicos y persianas",
+        "Cerraduras de locales y oficinas",
+        "Barras antipánico",
+        "Mantenimiento para administradores de fincas"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué ventaja tiene amaestrar las llaves de la comunidad?",
+          "respuesta": "Cada vecino usa una sola llave para su vivienda y las zonas comunes que le tocan, y la comunidad controla quién accede a cada sitio. Es más cómodo y más seguro que tener un manojo de llaves distintas."
+        },
+        {
+          "pregunta": "¿Trabajáis con administradores de fincas en {ciudad}?",
+          "respuesta": "Sí. Atendemos los avisos de las comunidades que gestionan, con precio cerrado antes de cada trabajo y factura a nombre de la comunidad. Llámanos al {telefono} y te explicamos cómo trabajamos."
+        }
       ]
     }
   ],
-
   "localidades": [
     {
       "slug": "cerrajeros-gijon",
@@ -275,14 +361,38 @@
         }
       ],
       "barrios": [
-        "Centro", "Cimadevilla", "La Arena", "El Coto", "El Llano", "La Calzada", "El Natahoyo",
-        "Pumarín", "Contrueces", "Nuevo Gijón", "Montevil", "Roces", "Viesques", "La Guía",
-        "Somió", "Cabueñes", "Ceares", "Tremañes"
+        "Centro",
+        "Cimadevilla",
+        "La Arena",
+        "El Coto",
+        "El Llano",
+        "La Calzada",
+        "El Natahoyo",
+        "Pumarín",
+        "Contrueces",
+        "Nuevo Gijón",
+        "Montevil",
+        "Roces",
+        "Viesques",
+        "La Guía",
+        "Somió",
+        "Cabueñes",
+        "Ceares",
+        "Tremañes"
       ],
       "faqs": [
-        { "pregunta": "¿Cuánto tarda un cerrajero en llegar en Gijón?", "respuesta": "Normalmente llegamos en {llegada}, según el barrio y la hora. Al llamar al {telefono} te decimos el tiempo estimado." },
-        { "pregunta": "¿Abrís portales y garajes de comunidades en Gijón?", "respuesta": "Sí. Abrimos portales, puertas de garaje y trasteros, y hacemos copias y amaestramiento de llaves para comunidades de vecinos." },
-        { "pregunta": "¿Cambiáis la cerradura en el momento si me mudo a un piso en Gijón?", "respuesta": "Sí. Llevamos bombines de seguridad en la furgoneta, así que el cambio se hace en la misma visita, normalmente en menos de media hora." }
+        {
+          "pregunta": "¿Cuánto tarda un cerrajero en llegar en Gijón?",
+          "respuesta": "Normalmente llegamos en {llegada}, según el barrio y la hora. Al llamar al {telefono} te decimos el tiempo estimado."
+        },
+        {
+          "pregunta": "¿Abrís portales y garajes de comunidades en Gijón?",
+          "respuesta": "Sí. Abrimos portales, puertas de garaje y trasteros, y hacemos copias y amaestramiento de llaves para comunidades de vecinos."
+        },
+        {
+          "pregunta": "¿Cambiáis la cerradura en el momento si me mudo a un piso en Gijón?",
+          "respuesta": "Sí. Llevamos bombines de seguridad en la furgoneta, así que el cambio se hace en la misma visita, normalmente en menos de media hora."
+        }
       ]
     },
     {
@@ -316,13 +426,32 @@
         }
       ],
       "barrios": [
-        "Centro", "Sabugo", "La Magdalena", "Versalles", "La Luz", "Llaranes", "Villalegre",
-        "Valliniello", "Miranda", "Piedras Blancas", "Salinas", "Las Vegas (Corvera)"
+        "Centro",
+        "Sabugo",
+        "La Magdalena",
+        "Versalles",
+        "La Luz",
+        "Llaranes",
+        "Villalegre",
+        "Valliniello",
+        "Miranda",
+        "Piedras Blancas",
+        "Salinas",
+        "Las Vegas (Corvera)"
       ],
       "faqs": [
-        { "pregunta": "¿Dais servicio en Salinas y Piedras Blancas?", "respuesta": "Sí, cubrimos todo Castrillón y Corvera además de Avilés. Al llamar te indicamos el tiempo de llegada a tu dirección." },
-        { "pregunta": "¿Trabajáis para empresas de Avilés?", "respuesta": "Sí. Abrimos y reparamos puertas de naves y oficinas, instalamos cerraduras antipánico y hacemos amaestramiento de llaves, con factura a nombre de la empresa." },
-        { "pregunta": "He perdido las llaves de casa en Avilés, ¿qué hago?", "respuesta": "Llámanos al {telefono}. Abrimos la puerta sin romperla y, si quieres, cambiamos el bombín en la misma visita para que las llaves perdidas dejen de servir." }
+        {
+          "pregunta": "¿Dais servicio en Salinas y Piedras Blancas?",
+          "respuesta": "Sí, cubrimos todo Castrillón y Corvera además de Avilés. Al llamar te indicamos el tiempo de llegada a tu dirección."
+        },
+        {
+          "pregunta": "¿Trabajáis para empresas de Avilés?",
+          "respuesta": "Sí. Abrimos y reparamos puertas de naves y oficinas, instalamos cerraduras antipánico y hacemos amaestramiento de llaves, con factura a nombre de la empresa."
+        },
+        {
+          "pregunta": "He perdido las llaves de casa en Avilés, ¿qué hago?",
+          "respuesta": "Llámanos al {telefono}. Abrimos la puerta sin romperla y, si quieres, cambiamos el bombín en la misma visita para que las llaves perdidas dejen de servir."
+        }
       ]
     },
     {
@@ -356,13 +485,30 @@
         }
       ],
       "barrios": [
-        "Pola de Siero", "Lugones", "El Berrón", "Lieres", "La Fresneda", "Valdesoto",
-        "Viella", "Granda", "Carbayín", "Santiago de Arenas"
+        "Pola de Siero",
+        "Lugones",
+        "El Berrón",
+        "Lieres",
+        "La Fresneda",
+        "Valdesoto",
+        "Viella",
+        "Granda",
+        "Carbayín",
+        "Santiago de Arenas"
       ],
       "faqs": [
-        { "pregunta": "¿Cuánto tardáis en llegar a Lugones o a la Pola?", "respuesta": "Normalmente entre {llegada}. Son de las zonas a las que llegamos más rápido." },
-        { "pregunta": "Acabo de comprar un piso nuevo, ¿debo cambiar la cerradura?", "respuesta": "Es muy recomendable. No sabes cuántas copias de las llaves de obra se han hecho. Cambiar el bombín es rápido y te garantiza que solo tú tienes llave." },
-        { "pregunta": "¿Abrís cierres metálicos de locales y naves?", "respuesta": "Sí. Abrimos y reparamos cierres enrollables, persianas metálicas y puertas de nave, y sustituimos sus cerraduras." }
+        {
+          "pregunta": "¿Cuánto tardáis en llegar a Lugones o a la Pola?",
+          "respuesta": "Normalmente entre {llegada}. Son de las zonas a las que llegamos más rápido."
+        },
+        {
+          "pregunta": "Acabo de comprar un piso nuevo, ¿debo cambiar la cerradura?",
+          "respuesta": "Es muy recomendable. No sabes cuántas copias de las llaves de obra se han hecho. Cambiar el bombín es rápido y te garantiza que solo tú tienes llave."
+        },
+        {
+          "pregunta": "¿Abrís cierres metálicos de locales y naves?",
+          "respuesta": "Sí. Abrimos y reparamos cierres enrollables, persianas metálicas y puertas de nave, y sustituimos sus cerraduras."
+        }
       ]
     },
     {
@@ -390,13 +536,29 @@
         }
       ],
       "barrios": [
-        "Sama", "La Felguera", "Ciaño", "Riaño", "Barros", "Lada", "Tuilla",
-        "El Entrego", "Sotrondio"
+        "Sama",
+        "La Felguera",
+        "Ciaño",
+        "Riaño",
+        "Barros",
+        "Lada",
+        "Tuilla",
+        "El Entrego",
+        "Sotrondio"
       ],
       "faqs": [
-        { "pregunta": "¿Llegáis también a El Entrego y Sotrondio?", "respuesta": "Sí, damos servicio en todo el Valle del Nalón. Al llamar te indicamos el tiempo de llegada a tu dirección." },
-        { "pregunta": "¿Merece la pena blindar una puerta antigua?", "respuesta": "Si la puerta y el marco están en buen estado, sí: el blindaje con chapa de acero y una cerradura de seguridad mejoran mucho la protección por menos dinero que una puerta nueva." },
-        { "pregunta": "¿Venís también fines de semana a Langreo?", "respuesta": "Sí, trabajamos {horario}, también sábados, domingos y festivos." }
+        {
+          "pregunta": "¿Llegáis también a El Entrego y Sotrondio?",
+          "respuesta": "Sí, damos servicio en todo el Valle del Nalón. Al llamar te indicamos el tiempo de llegada a tu dirección."
+        },
+        {
+          "pregunta": "¿Merece la pena blindar una puerta antigua?",
+          "respuesta": "Si la puerta y el marco están en buen estado, sí: el blindaje con chapa de acero y una cerradura de seguridad mejoran mucho la protección por menos dinero que una puerta nueva."
+        },
+        {
+          "pregunta": "¿Venís también fines de semana a Langreo?",
+          "respuesta": "Sí, trabajamos {horario}, también sábados, domingos y festivos."
+        }
       ]
     },
     {
@@ -430,13 +592,30 @@
         }
       ],
       "barrios": [
-        "Mieres centro", "Santullano", "Ujo", "Figaredo", "Turón", "Seana", "Rioturbio",
-        "Pola de Lena", "Moreda", "Cabañaquinta"
+        "Mieres centro",
+        "Santullano",
+        "Ujo",
+        "Figaredo",
+        "Turón",
+        "Seana",
+        "Rioturbio",
+        "Pola de Lena",
+        "Moreda",
+        "Cabañaquinta"
       ],
       "faqs": [
-        { "pregunta": "¿Cubrís Pola de Lena y Moreda?", "respuesta": "Sí, damos servicio en todo el Valle del Caudal, incluidos Lena y Aller. Al llamar te decimos el tiempo de llegada." },
-        { "pregunta": "Alquilo un piso, ¿cada cuánto debo cambiar el bombín?", "respuesta": "Lo ideal es cambiarlo cada vez que cambian los inquilinos. Así te aseguras de que nadie conserva copias de las llaves." },
-        { "pregunta": "¿Podéis abrir una cerradura antigua sin romperla?", "respuesta": "En la mayoría de los casos sí. Si no fuera posible, te lo explicamos antes y te proponemos la solución más económica." }
+        {
+          "pregunta": "¿Cubrís Pola de Lena y Moreda?",
+          "respuesta": "Sí, damos servicio en todo el Valle del Caudal, incluidos Lena y Aller. Al llamar te decimos el tiempo de llegada."
+        },
+        {
+          "pregunta": "Alquilo un piso, ¿cada cuánto debo cambiar el bombín?",
+          "respuesta": "Lo ideal es cambiarlo cada vez que cambian los inquilinos. Así te aseguras de que nadie conserva copias de las llaves."
+        },
+        {
+          "pregunta": "¿Podéis abrir una cerradura antigua sin romperla?",
+          "respuesta": "En la mayoría de los casos sí. Si no fuera posible, te lo explicamos antes y te proponemos la solución más económica."
+        }
       ]
     },
     {
@@ -464,24 +643,494 @@
         }
       ],
       "barrios": [
-        "Posada de Llanera", "Lugo de Llanera", "Polígono de Silvota", "Polígono de Asipo",
-        "Parque Tecnológico de Asturias", "Ables", "Coruño", "Villabona"
+        "Posada de Llanera",
+        "Lugo de Llanera",
+        "Polígono de Silvota",
+        "Polígono de Asipo",
+        "Parque Tecnológico de Asturias",
+        "Ables",
+        "Coruño",
+        "Villabona"
       ],
       "faqs": [
-        { "pregunta": "¿Atendéis empresas de los polígonos de Silvota y Asipo?", "respuesta": "Sí. Abrimos y reparamos puertas de nave y cierres metálicos, y hacemos amaestramiento y cambio de cilindros con factura a nombre de la empresa." },
-        { "pregunta": "¿Cuánto tardáis en llegar a Posada o Lugo de Llanera?", "respuesta": "Normalmente entre {llegada}, porque estamos muy cerca." },
-        { "pregunta": "¿Qué es el amaestramiento de llaves?", "respuesta": "Es un sistema en el que cada llave abre solo las puertas que le corresponden, y una llave maestra las abre todas. Es muy útil en empresas y comunidades." }
+        {
+          "pregunta": "¿Atendéis empresas de los polígonos de Silvota y Asipo?",
+          "respuesta": "Sí. Abrimos y reparamos puertas de nave y cierres metálicos, y hacemos amaestramiento y cambio de cilindros con factura a nombre de la empresa."
+        },
+        {
+          "pregunta": "¿Cuánto tardáis en llegar a Posada o Lugo de Llanera?",
+          "respuesta": "Normalmente entre {llegada}, porque estamos muy cerca."
+        },
+        {
+          "pregunta": "¿Qué es el amaestramiento de llaves?",
+          "respuesta": "Es un sistema en el que cada llave abre solo las puertas que le corresponden, y una llave maestra las abre todas. Es muy útil en empresas y comunidades."
+        }
       ]
     }
   ],
-
   "faqs": [
-    { "pregunta": "¿Cuánto tarda en llegar un cerrajero en {ciudad}?", "respuesta": "En {ciudad} ciudad solemos llegar en {tiempo_llegada} desde tu llamada. En localidades cercanas el tiempo puede ser algo mayor; te lo diremos al llamar." },
-    { "pregunta": "¿Cuánto cuesta un cerrajero en {ciudad}?", "respuesta": "Depende del servicio, del tipo de puerta o cerradura y de la hora. Llámanos al {telefono}: te daremos un precio cerrado con el desplazamiento incluido antes de salir, sin compromiso." },
-    { "pregunta": "¿Trabajáis de noche, fines de semana y festivos?", "respuesta": "Sí. Nuestro servicio de cerrajería urgente funciona {horario}, incluidos domingos y festivos." },
-    { "pregunta": "¿Podéis abrir la puerta sin romper la cerradura?", "respuesta": "En la gran mayoría de casos sí. Usamos técnicas de apertura no destructivas para que la cerradura siga funcionando con tus llaves." },
-    { "pregunta": "¿Qué necesito para que me abráis la puerta de casa?", "respuesta": "Por seguridad, te pediremos que acredites que vives en la vivienda: DNI con la dirección, contrato de alquiler, un recibo a tu nombre o la confirmación de un vecino." },
-    { "pregunta": "¿Emitís factura? ¿Sirve para el seguro?", "respuesta": "Sí, siempre entregamos factura detallada con garantía. Muchas pólizas de hogar cubren la apertura de puertas o la reparación tras un robo, así que puedes presentarla a tu aseguradora." },
-    { "pregunta": "¿Cómo puedo pagar?", "respuesta": "Aceptamos tarjeta, Bizum y efectivo." }
+    {
+      "pregunta": "¿Cuánto tarda en llegar un cerrajero en {ciudad}?",
+      "respuesta": "En {ciudad} ciudad solemos llegar en {tiempo_llegada} desde tu llamada. En localidades cercanas el tiempo puede ser algo mayor; te lo diremos al llamar."
+    },
+    {
+      "pregunta": "¿Cuánto cuesta un cerrajero en {ciudad}?",
+      "respuesta": "Depende del servicio, del tipo de puerta o cerradura y de la hora. Llámanos al {telefono}: te daremos un precio cerrado con el desplazamiento incluido antes de salir, sin compromiso."
+    },
+    {
+      "pregunta": "¿Trabajáis de noche, fines de semana y festivos?",
+      "respuesta": "Sí. Nuestro servicio de cerrajería urgente funciona {horario}, incluidos domingos y festivos."
+    },
+    {
+      "pregunta": "¿Podéis abrir la puerta sin romper la cerradura?",
+      "respuesta": "En la gran mayoría de casos sí. Usamos técnicas de apertura no destructivas para que la cerradura siga funcionando con tus llaves."
+    },
+    {
+      "pregunta": "¿Qué necesito para que me abráis la puerta de casa?",
+      "respuesta": "Por seguridad, te pediremos que acredites que vives en la vivienda: DNI con la dirección, contrato de alquiler, un recibo a tu nombre o la confirmación de un vecino."
+    },
+    {
+      "pregunta": "¿Emitís factura? ¿Sirve para el seguro?",
+      "respuesta": "Sí, siempre entregamos factura detallada con garantía. Muchas pólizas de hogar cubren la apertura de puertas o la reparación tras un robo, así que puedes presentarla a tu aseguradora."
+    },
+    {
+      "pregunta": "¿Cómo puedo pagar?",
+      "respuesta": "Aceptamos tarjeta, Bizum y efectivo."
+    }
+  ],
+  "guias": [
+    {
+      "slug": "que-hacer-si-te-quedas-fuera-de-casa",
+      "titulo": "Qué hacer si te quedas fuera de casa",
+      "titulo_seo": "Qué hacer si te quedas fuera de casa | Cerrajeros Oviedo Express",
+      "descripcion_meta": "¿Te has quedado fuera de casa? Qué revisar primero, qué no hacer y cómo llamar a un cerrajero con precio cerrado para que abra sin romper la cerradura.",
+      "resumen": "Quedarse fuera le pasa a casi todo el mundo alguna vez. Te explicamos qué comprobar antes de llamar, qué errores evitar y qué cambia si la puerta está cerrada de golpe, con llave o con la llave puesta por dentro.",
+      "secciones": [
+        {
+          "titulo": "Lo primero: para un momento y revisa lo sencillo",
+          "texto": [
+            "Cuando la puerta se cierra detrás de ti y las llaves se quedan dentro, lo normal es ponerse nervioso y buscar una solución rápida. Antes de nada, comprueba si estás a salvo: si hay un niño pequeño, una persona dependiente dentro o algo encendido en la cocina, llama directamente al 112 y explica la situación.",
+            "Si no hay una emergencia, piensa en quién puede tener una copia: tu pareja, un familiar, un vecino de confianza, el portero o, si vives de alquiler, el propietario o la inmobiliaria. Muchas veces una llamada de teléfono te ahorra el cerrajero."
+          ]
+        },
+        {
+          "titulo": "Cerrada de golpe, con llave echada o con la llave puesta por dentro",
+          "texto": [
+            "No es lo mismo una puerta cerrada de golpe que una cerrada con llave, y eso influye en el tiempo y en la técnica que usará el cerrajero. Si la puerta se cerró de golpe, solo la sujeta el resbalón (el pestillo inclinado que entra solo al cerrar). Es el caso más habitual y, en la mayoría de puertas, se abre actuando sobre ese resbalón sin tocar el bombín, en pocos minutos y sin daños.",
+            "Si echaste la llave al salir, además del resbalón están los cerrojos o pasadores, que solo se recogen girando el cilindro. En ese caso hay que trabajar sobre el bombín con técnicas como la ganzúa o la impresión. Lleva más tiempo, y en cerraduras de alta seguridad puede ser necesario sustituir el bombín si no hay otra forma de abrir.",
+            "Si te has dejado la llave metida en la cerradura por dentro, la situación se complica. En muchos bombines convencionales la llave interior impide que el mecanismo gire desde fuera. Los cilindros con función de doble embrague sí permiten abrir desde fuera aunque haya una llave puesta dentro, pero no todas las puertas los tienen. Cuando llames, cuenta este detalle: ayuda al cerrajero a saber qué material llevar."
+          ]
+        },
+        {
+          "titulo": "Lo que no conviene hacer",
+          "texto": [
+            "No intentes abrir con una tarjeta, una radiografía o un alambre si no sabes cómo hacerlo. En puertas con resbalón protegido o en puertas blindadas no funciona, y lo habitual es acabar rayando el marco, doblando la chapa o rompiendo la goma de la puerta. Tampoco uses destornilladores ni taladros: un bombín dañado por un intento casero suele obligar a cambiarlo, y el arreglo sale más caro que la apertura.",
+            "No trepes por balcones ni ventanas: el riesgo de caída no compensa.",
+            "Y no llames al primer anuncio que aparezca en el móvil sin preguntar el precio. Con la prisa es fácil aceptar un «desde» o un precio sin desplazamiento y encontrarte después una factura muy distinta. Pide siempre el precio total antes de que el técnico salga hacia tu casa."
+          ]
+        },
+        {
+          "titulo": "Cómo llamar a un cerrajero con garantías",
+          "texto": [
+            "Explica por teléfono qué tipo de puerta tienes (de madera, blindada o acorazada), si está cerrada de golpe o con llave y si hay una llave puesta por dentro. Con esa información, un cerrajero serio puede darte un precio cerrado que incluya desplazamiento, mano de obra, material si hace falta e IVA.",
+            "Ten a mano algo que demuestre que vives en esa vivienda: el DNI con la dirección, el contrato de alquiler, un recibo a tu nombre o un vecino que te conozca. Un cerrajero responsable te lo pedirá antes de abrir. Si no lo hace, desconfía: lo mismo podría hacer con la puerta de cualquier otra persona.",
+            "Al terminar, pide factura con el nombre y el NIF de la empresa. Muchas pólizas de hogar cubren la apertura de puertas, así que revisa la tuya: puede que la propia aseguradora te envíe a alguien o te reembolse el servicio."
+          ]
+        },
+        {
+          "titulo": "Si nos llamas a nosotros",
+          "texto": [
+            "En {nombre} te atiende un cerrajero que te hace un par de preguntas y te da el precio cerrado por teléfono antes de salir. Llegamos en {tiempo_llegada} en {ciudad} y trabajamos {horario}, también fines de semana y festivos. En la mayoría de casos abrimos sin romper la cerradura.",
+            "Si la apertura obliga a cambiar el bombín, o si has perdido las llaves y prefieres que nadie pueda usarlas, llevamos cilindros de seguridad en la furgoneta y lo cambiamos en la misma visita. Puedes pagar con tarjeta, Bizum o efectivo, y te entregamos factura válida para tu seguro de hogar. Y si en casa soléis dejar la llave puesta por dentro, pregúntanos por un bombín con doble embrague."
+          ]
+        }
+      ],
+      "pasos": [
+        "Comprueba que no hay una emergencia dentro; si la hay, llama al 112",
+        "Piensa quién tiene copia: familia, vecinos, propietario o inmobiliaria",
+        "Fíjate si la puerta está cerrada de golpe, con llave o con la llave puesta dentro",
+        "No fuerces la puerta con tarjetas, alambres ni herramientas",
+        "Pide precio total cerrado antes de que el cerrajero salga",
+        "Prepara un documento que acredite que vives allí",
+        "Pide factura y revisa si tu seguro de hogar cubre la apertura"
+      ],
+      "servicio_relacionado": "apertura-de-puertas",
+      "faqs": [
+        {
+          "pregunta": "¿Se puede abrir una puerta cerrada de golpe sin romper nada?",
+          "respuesta": "En la mayoría de puertas sí. Cuando solo la sujeta el resbalón, el cerrajero actúa sobre él sin tocar el bombín y la cerradura sigue funcionando con tus llaves."
+        },
+        {
+          "pregunta": "¿Qué pasa si me he dejado la llave puesta por dentro?",
+          "respuesta": "Depende del bombín. Los que tienen doble embrague se abren desde fuera igualmente; en los convencionales la llave interior bloquea el giro y a veces hay que sustituir el cilindro. Cuéntalo al llamar para que el técnico lleve el material adecuado."
+        },
+        {
+          "pregunta": "¿Por qué me pedís que demuestre que vivo en la casa?",
+          "respuesta": "Para no abrir nunca una vivienda a quien no tiene derecho a entrar. Basta con el DNI con la dirección, el contrato de alquiler, un recibo a tu nombre o la confirmación de un vecino."
+        }
+      ]
+    },
+    {
+      "slug": "como-evitar-timos-de-cerrajeros",
+      "titulo": "Cómo evitar timos de cerrajeros",
+      "titulo_seo": "Cómo evitar timos de cerrajeros | Cerrajeros Oviedo Express",
+      "descripcion_meta": "Precio cerrado, factura con NIF, recargos nocturnos y qué hacer si el cobro te parece abusivo. Consejos prácticos para contratar un cerrajero sin sorpresas.",
+      "resumen": "La mayoría de cerrajeros trabajan con honradez, pero las urgencias son el terreno ideal para las facturas inesperadas. Estas pautas te ayudan a saber cuánto vas a pagar y qué hacer si algo no cuadra.",
+      "secciones": [
+        {
+          "titulo": "Por qué las urgencias se prestan a los abusos",
+          "texto": [
+            "Cuando te quedas fuera de casa a medianoche tienes prisa, frío y poca capacidad para comparar. Las organizaciones de consumidores, como la OCU, llevan años recogiendo reclamaciones por servicios de cerrajería urgente con importes muy superiores a lo esperado, a menudo porque no se dio un presupuesto previo o porque el precio final no tenía nada que ver con el que se dijo por teléfono.",
+            "La OCU recuerda que el factor urgencia no reduce tus derechos como consumidor. Que tengas prisa no obliga a aceptar cualquier precio ni a renunciar a una factura. Saber cuatro cosas antes de llamar es la mejor protección."
+          ]
+        },
+        {
+          "titulo": "Pide un precio total y cerrado antes de que salgan",
+          "texto": [
+            "La recomendación básica de las organizaciones de consumidores es pedir siempre un presupuesto previo. En cerrajería urgente eso significa pedir por teléfono el precio total del servicio, no una parte. Pregunta expresamente si incluye el desplazamiento, la mano de obra, el material (por ejemplo, un bombín nuevo si hubiera que cambiarlo) y el IVA.",
+            "Para que te puedan dar un precio fiable, describe bien el problema: tipo de puerta, si está cerrada de golpe o con llave, si hay una llave rota dentro, la dirección y la hora. Si el cerrajero no puede cerrar el precio porque depende de lo que encuentre, pide al menos un precio máximo y que te avise antes de hacer cualquier trabajo que lo supere.",
+            "Si no te dan ningún precio, insiste. Si aun así no te lo dan, llama a otro."
+          ]
+        },
+        {
+          "titulo": "Desconfía de los precios «desde» y de las cifras sueltas",
+          "texto": [
+            "Un «apertura desde» con una cifra muy baja suele ser solo una parte del total. Después se suman el desplazamiento, la salida nocturna, el material o una supuesta dificultad añadida. Lo mismo ocurre cuando te dicen solo el precio de la mano de obra o un precio sin IVA.",
+            "Pregunta también por los recargos. Es habitual que el servicio nocturno, en fin de semana o en festivo tenga un suplemento, y no es irregular en sí mismo. Lo importante es que te lo digan antes y que esté incluido en el precio que aceptas por teléfono."
+          ]
+        },
+        {
+          "titulo": "Comprueba quién va a venir",
+          "texto": [
+            "Algunos anuncios que aparecen al buscar un cerrajero no corresponden a un taller de la zona, sino a centralitas que pasan el aviso a quien esté disponible. No tiene por qué ser un problema, pero te conviene saber con quién tratas. Pregunta el nombre de la empresa y su NIF, y fíjate en si tiene una dirección real y un teléfono fijo o móvil al que puedas volver a llamar si hay algún problema.",
+            "La OCU aconseja apostar por un cerrajero de confianza del barrio. Un buen momento para buscarlo es antes de necesitarlo: guarda en el móvil el teléfono de un cerrajero de tu zona que te dé confianza y no tendrás que decidir con prisas."
+          ]
+        },
+        {
+          "titulo": "Factura siempre, y no firmes si no estás de acuerdo",
+          "texto": [
+            "Pide factura con el nombre o razón social de la empresa, su NIF, el detalle del trabajo y el desglose del importe con IVA. Sin ella no podrás reclamar ni presentarla a tu seguro de hogar.",
+            "Si al terminar te presentan un importe muy distinto al pactado, la OCU recomienda no firmar la factura ni ningún otro documento que pueda impedirte reclamar después, y exigir una copia antes de pagar. Puedes pedir la hoja de reclamaciones y acudir a la oficina de consumo de tu ayuntamiento o a los servicios de consumo del Principado de Asturias. Pagar con tarjeta o Bizum deja un registro del pago que también te será útil."
+          ]
+        },
+        {
+          "titulo": "Cómo trabajamos en {nombre}",
+          "texto": [
+            "En {ciudad} te damos el precio cerrado por teléfono antes de salir, con el desplazamiento incluido, y te decimos si hay recargo por la hora. Llegamos en {tiempo_llegada}, abrimos sin romper la cerradura en la mayoría de casos y te entregamos factura válida para el seguro. Puedes pagar con tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "pasos": [
+        "Pide el precio total: desplazamiento, mano de obra, material e IVA",
+        "Pregunta si hay recargo nocturno o festivo y si está incluido",
+        "Desconfía de los precios «desde» o sin desplazamiento",
+        "Pregunta el nombre de la empresa y su NIF",
+        "Exige factura detallada antes de pagar",
+        "Si el importe no coincide, no firmes y pide la hoja de reclamaciones"
+      ],
+      "servicio_relacionado": "cerrajero-urgente",
+      "faqs": [
+        {
+          "pregunta": "¿Es legal cobrar más por la noche o en festivo?",
+          "respuesta": "Sí, los precios son libres y es habitual aplicar un recargo fuera del horario normal. Lo que no es aceptable es no avisarte: el recargo debe estar incluido en el precio que te dan antes de salir."
+        },
+        {
+          "pregunta": "¿Qué hago si el cerrajero me cobra más de lo acordado?",
+          "respuesta": "No firmes nada que no compartas, pide copia de la factura y la hoja de reclamaciones, y presenta la reclamación en la oficina de consumo de tu ayuntamiento o del Principado. Guarda el justificante del pago."
+        },
+        {
+          "pregunta": "¿Por qué un cerrajero no me da precio por teléfono?",
+          "respuesta": "A veces falta información sobre la puerta o la cerradura. Describe bien el caso y pide al menos un precio máximo. Si se niegan a darte cualquier cifra, es mejor llamar a otro."
+        }
+      ]
+    },
+    {
+      "slug": "que-es-un-bombin-antibumping",
+      "titulo": "Qué es un bombín antibumping y cuándo te conviene",
+      "titulo_seo": "Qué es un bombín antibumping | Cerrajeros Oviedo Express",
+      "descripcion_meta": "Bumping, ganzúa, extracción y rotura: cómo se fuerzan los bombines, qué indica la norma UNE-EN 1303 y cuándo conviene cambiar el tuyo y poner escudo.",
+      "resumen": "El bombín es la pieza por la que entran la mayoría de intentos de apertura. Te explicamos cómo se ataca, qué protege un bombín de seguridad y cómo leer su clasificación antes de elegir uno.",
+      "secciones": [
+        {
+          "titulo": "El bombín, el punto débil de muchas puertas",
+          "texto": [
+            "El bombín o cilindro es la pieza donde metes la llave. Dentro tiene una serie de pitones o pernos que la llave coloca a la altura justa para que el cilindro pueda girar. Si alguien consigue alinear esos pitones sin la llave, o arrancar o romper el cilindro, la cerradura se abre aunque el resto de la puerta sea muy resistente.",
+            "Por eso, en una puerta blindada con un bombín básico, la protección real la marca el bombín, no la puerta. En muchos edificios antiguos siguen instalados cilindros sencillos que no están pensados para resistir las técnicas de apertura actuales."
+          ]
+        },
+        {
+          "titulo": "Las cuatro formas más comunes de atacar un bombín",
+          "texto": [
+            "Bumping: se introduce una llave limada de forma especial, llamada llave de bumping, y se golpea mientras se aplica un ligero giro. Los golpes hacen saltar los pitones y, durante un instante, quedan alineados y el cilindro gira. No deja apenas marcas, por eso se usa tanto.",
+            "Ganzúa: con herramientas finas se van colocando los pitones uno a uno hasta alinearlos. Requiere más habilidad y tiempo, y su eficacia depende mucho del diseño interno del cilindro.",
+            "Extracción: se atornilla o engancha una herramienta en el bombín y se tira con fuerza para arrancarlo. Si el cilindro sobresale de la puerta, el ataque es más fácil.",
+            "Rotura: se fuerza el cilindro por su punto más débil, en la zona del tornillo de sujeción, hasta partirlo y accionar la leva desde dentro. Es rápido y muy habitual con bombines básicos."
+          ]
+        },
+        {
+          "titulo": "Qué significa antibumping, antiganzúa, antiextracción y antirotura",
+          "texto": [
+            "Un bombín antibumping incorpora pitones con formas especiales, muelles diferentes u otros elementos que impiden que los golpes alineen el mecanismo. Los modelos antiganzúa añaden pitones de seguridad o sistemas de bloqueo que dificultan la manipulación una a una.",
+            "Contra la extracción y la rotura, los cilindros de seguridad suelen llevar barras de acero endurecido en el cuerpo y una línea de rotura controlada: si alguien lo fuerza, se parte por una zona exterior prevista y la parte que mueve la leva queda dentro de la puerta, de modo que la cerradura sigue cerrada. Muchos incorporan también protección antitaladro.",
+            "Estas etiquetas son útiles, pero no todos los fabricantes las usan con el mismo criterio. Para comparar con algo más objetivo existe la clasificación según norma."
+          ]
+        },
+        {
+          "titulo": "Cómo leer la clasificación de la norma UNE-EN 1303",
+          "texto": [
+            "La norma UNE-EN 1303 establece los requisitos y ensayos de los cilindros para cerraduras. Su clasificación es un código de ocho cifras que recoge, entre otras cosas, la durabilidad, la resistencia al fuego o a la corrosión. Para la seguridad, las dos cifras que importan son las dos últimas.",
+            "La séptima cifra indica la seguridad de la llave, en una escala del 1 al 6, donde 6 es el nivel más alto. La octava indica la resistencia al ataque y se expresa con 0 (sin resistencia probada) o con las letras A, B, C y D, donde D es la más resistente. Un cilindro clasificado, por ejemplo, con un 6 y una D en esas posiciones está en el escalón más alto de la norma.",
+            "Ten en cuenta que cumplir la norma no significa por sí solo que el cilindro sea de alta seguridad: hay que mirar qué grados concretos tiene. Y aunque la clasificación sea alta, la resistencia real depende también de una buena instalación y de que la puerta tenga escudo."
+          ]
+        },
+        {
+          "titulo": "El escudo protector, el complemento que no debe faltar",
+          "texto": [
+            "Un escudo de seguridad es una pieza de acero que se coloca por fuera de la puerta, rodeando el bombín. Impide agarrar el cilindro para arrancarlo o partirlo y suele llevar un protector giratorio o de acero templado frente al taladro. Muchos modelos tienen además una tapa que cubre la entrada de la llave.",
+            "La regla práctica es que el bombín no sobresalga de la puerta ni del escudo. Si al cerrar ves que el cilindro asoma, es un buen momento para revisar la medida o instalar un escudo."
+          ]
+        },
+        {
+          "titulo": "Cuándo conviene cambiar tu bombín",
+          "texto": [
+            "Te recomendamos cambiarlo si es un modelo básico sin protección, si el cilindro sobresale, si te mudas a una vivienda, si has perdido llaves o te las han robado, tras un intento de robo o si la llave empieza a costar al girar. En {nombre} llevamos cilindros de seguridad en la furgoneta, así que el cambio se hace en la misma visita en {ciudad} y te damos el precio cerrado de cada opción antes de instalar."
+          ]
+        }
+      ],
+      "servicio_relacionado": "cambio-de-cerraduras",
+      "faqs": [
+        {
+          "pregunta": "¿Un bombín antibumping es imposible de abrir?",
+          "respuesta": "No existe un cilindro imposible de abrir. Un buen bombín de seguridad hace que abrirlo requiera mucho más tiempo, herramientas y ruido, que es lo que disuade a la mayoría de intentos."
+        },
+        {
+          "pregunta": "¿Qué grado de la UNE-EN 1303 debería tener mi bombín?",
+          "respuesta": "Para una vivienda conviene un grado alto de seguridad de llave y de resistencia al ataque, mirando las dos últimas cifras del código. Te explicamos las opciones según tu puerta y tu presupuesto."
+        },
+        {
+          "pregunta": "¿Puedo poner un bombín de seguridad en cualquier puerta?",
+          "respuesta": "En la mayoría sí, porque los cilindros de perfil europeo son el estándar. Hay que medir bien cada lado para que no sobresalga y comprobar si la puerta admite un escudo protector."
+        }
+      ]
+    },
+    {
+      "slug": "cambiar-la-cerradura-al-mudarte",
+      "titulo": "¿Debes cambiar la cerradura al mudarte?",
+      "titulo_seo": "Cambiar la cerradura al mudarte | Cerrajeros Oviedo Express",
+      "descripcion_meta": "Por qué cambiar el bombín al entrar en una casa nueva o de alquiler, qué dice la ley de arrendamientos, quién lo paga y cuánto tiempo lleva hacerlo bien.",
+      "resumen": "Cuando entras a vivir en una casa, nunca sabes cuántas copias de llaves hay por ahí. Cambiar el bombín es rápido y te asegura que solo entra quien tú decides, también si vives de alquiler.",
+      "secciones": [
+        {
+          "titulo": "Por qué conviene cambiar el bombín al llegar",
+          "texto": [
+            "Las llaves de una vivienda pasan por muchas manos: anteriores propietarios o inquilinos, familiares a los que se dejó copia, una persona que limpiaba, la inmobiliaria que enseñaba el piso, un vecino que regaba las plantas en vacaciones. Aunque te entreguen un manojo de llaves, no tienes forma de saber si alguna copia se quedó por el camino.",
+            "En una vivienda nueva pasa algo parecido con las llaves de obra: durante la construcción y la entrega circulan entre constructora, instaladores y comercializadora. Cambiar el cilindro al recibir la casa es una medida sencilla y barata comparada con lo que protege.",
+            "Además, es un buen momento para revisar el nivel de seguridad. Si el bombín actual es un modelo básico, puedes aprovechar para poner uno antibumping y antiganzúa y, si la puerta lo admite, un escudo protector."
+          ]
+        },
+        {
+          "titulo": "Bombín o cerradura completa: qué hay que cambiar",
+          "texto": [
+            "En la mayoría de los casos basta con cambiar el bombín, que es la pieza donde entra la llave. Las copias antiguas dejan de servir y la cerradura, los cerrojos y la puerta siguen siendo los mismos.",
+            "Solo hace falta cambiar la cerradura completa si está deteriorada, si falla al cerrar o si quieres pasar a una cerradura de más puntos de cierre. En ese caso el cerrajero te lo explicará antes y te dará el precio de cada opción."
+          ]
+        },
+        {
+          "titulo": "Si vives de alquiler: qué dice la ley",
+          "texto": [
+            "La Ley de Arrendamientos Urbanos no menciona de forma expresa el cambio de cerradura. Lo que sí establece, en su artículo 23, es que el inquilino necesita el consentimiento por escrito del propietario para hacer obras que modifiquen la configuración de la vivienda. Cambiar un bombín por otro del mismo tipo no altera la vivienda, por lo que muchos entienden que no es una obra en ese sentido, pero no hay una regla única y tu contrato puede tener cláusulas al respecto.",
+            "Por eso lo más prudente es hablarlo con el propietario antes y dejarlo por escrito, aunque sea en un mensaje. Guarda el bombín original con sus llaves para volver a colocarlo al terminar el contrato, o acordad que el nuevo se quede en la vivienda. Si el propietario necesita acceso para alguna reparación, pactad cómo se hará: tener la llave no le permite entrar sin tu permiso.",
+            "Si tienes dudas por una cláusula concreta o un conflicto con el casero, consulta con un abogado o con los servicios de vivienda y consumo de tu comunidad autónoma."
+          ]
+        },
+        {
+          "titulo": "¿Quién lo paga?",
+          "texto": [
+            "Tampoco hay una norma específica. Si eres tú quien quiere cambiar el bombín por seguridad al entrar, lo habitual es que lo pagues tú, salvo que acordéis otra cosa. Muchos propietarios prefieren hacerse cargo ellos y cambiarlo entre un inquilino y otro, porque así protegen también su vivienda.",
+            "Si la cerradura se estropea durante el alquiler, la ley distingue entre las reparaciones necesarias para conservar la vivienda en condiciones de habitabilidad, que corresponden al propietario, y las pequeñas reparaciones por el desgaste del uso ordinario, que corresponden al inquilino. Dónde encaja cada avería no siempre está claro, así que vuelve a ser mejor hablarlo y pedir factura del trabajo."
+          ]
+        },
+        {
+          "titulo": "Cuánto tiempo lleva",
+          "texto": [
+            "Un cambio de bombín estándar lleva entre 15 y 30 minutos. Si hay que sustituir la cerradura completa o instalar un escudo puede llevar algo más. El cerrajero mide el cilindro actual por los dos lados para que el nuevo no sobresalga de la puerta, lo instala y comprueba que cierra bien con todas las llaves.",
+            "En {nombre} llevamos cilindros de seguridad en la furgoneta, así que en {ciudad} y alrededores lo cambiamos en la misma visita, con precio cerrado antes de empezar y factura. Puedes pagar con tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "pasos": [
+        "Cuenta cuántas llaves te entregan y pregunta si hay más copias",
+        "Si alquilas, habla con el propietario y déjalo por escrito",
+        "Guarda el bombín original si vas a devolverlo al final del contrato",
+        "Elige un bombín de seguridad y valora un escudo protector",
+        "Reparte las copias nuevas solo a quien de verdad las necesite"
+      ],
+      "servicio_relacionado": "cambio-de-cerraduras",
+      "faqs": [
+        {
+          "pregunta": "¿Puedo cambiar la cerradura de un piso de alquiler?",
+          "respuesta": "La ley no lo regula de forma expresa y tu contrato puede decir algo. Lo prudente es acordarlo con el propietario por escrito y guardar el bombín original para reponerlo al marcharte."
+        },
+        {
+          "pregunta": "¿Basta con cambiar el bombín o hay que cambiar toda la cerradura?",
+          "respuesta": "Normalmente basta con el bombín: las llaves antiguas dejan de abrir. La cerradura completa solo se cambia si está deteriorada o si quieres más puntos de cierre."
+        },
+        {
+          "pregunta": "¿Cuántas llaves me dan con el bombín nuevo?",
+          "respuesta": "Depende del modelo. Algunos cilindros de seguridad llevan tarjeta de propiedad para pedir copias, lo que evita que alguien haga duplicados sin tu autorización."
+        }
+      ]
+    },
+    {
+      "slug": "llave-rota-dentro-de-la-cerradura",
+      "titulo": "Qué hacer si se te rompe la llave dentro de la cerradura",
+      "titulo_seo": "Llave rota dentro de la cerradura | Cerrajeros Oviedo Express",
+      "descripcion_meta": "Se te ha partido la llave en el bombín: qué puedes intentar tú, por qué no debes usar pegamento, cómo se extrae el trozo y cuándo hay que cambiar el cilindro.",
+      "resumen": "Una llave partida dentro del bombín tiene arreglo casi siempre sin romper nada, siempre que no se empeore la situación. Te contamos qué hacer, qué evitar y cuándo hay que cambiar el cilindro.",
+      "secciones": [
+        {
+          "titulo": "Por qué se rompen las llaves",
+          "texto": [
+            "Una llave casi nunca se parte de golpe sin aviso. Lo habitual es que la cerradura llevara tiempo costando: la llave entraba justa, había que empujar o tirar de la puerta para que girase, o se usaba una copia mal hecha o muy gastada. Al forzar el giro una y otra vez, el metal se fatiga y acaba partiéndose por la zona más fina, justo a la entrada del bombín.",
+            "Otras causas frecuentes son una puerta descolgada que hace que los cerrojos rocen con el marco, suciedad acumulada dentro del cilindro o un bombín desgastado. Conviene tenerlo en cuenta, porque si no se corrige la causa, la siguiente llave también puede acabar rota."
+          ]
+        },
+        {
+          "titulo": "Primero, mira dónde ha quedado el trozo",
+          "texto": [
+            "Antes de tocar nada, fíjate en dos cosas. La primera, si el fragmento asoma por fuera del bombín o ha quedado completamente dentro. La segunda, en qué posición está: si la llave se rompió en la posición en la que entra y sale (normalmente en vertical), o a mitad de giro.",
+            "Un cilindro solo suelta la llave en la posición de inserción. Si el trozo ha quedado girado, no saldrá aunque tires de él, y forzarlo puede dañar los pitones. Comprueba también si la puerta está abierta, cerrada de golpe o con llave, porque eso cambia la urgencia."
+          ]
+        },
+        {
+          "titulo": "Lo que puedes intentar tú",
+          "texto": [
+            "Si el trozo sobresale un poco y está en la posición de inserción, puedes intentar sacarlo con unas pinzas finas o unos alicates de punta, tirando recto hacia fuera, sin girar ni hacer palanca. Si tienes un lubricante específico para cerraduras, en spray de grafito o teflón, aplicar un poco en la ranura puede ayudar a que el fragmento deslice.",
+            "Si el trozo no se mueve con un tirón suave, déjalo. Cada intento brusco empuja el fragmento más adentro o lo encaja mejor entre los pitones."
+          ]
+        },
+        {
+          "titulo": "Lo que no debes hacer",
+          "texto": [
+            "No uses pegamento instantáneo para intentar pegar la otra mitad de la llave y tirar. Es un consejo que circula mucho y casi siempre acaba mal: el pegamento se escurre dentro del cilindro, se endurece entre los pitones y el bombín queda inservible. Lo que podía ser una extracción sencilla se convierte en un cambio de cilindro obligatorio.",
+            "Tampoco metas otra llave, un destornillador o un clip para intentar girar la cerradura, ni golpees el bombín. No uses aceites de cocina ni lubricantes que atraigan polvo, y no metas un trozo de alambre para empujar el fragmento: si se queda al fondo, sacarlo es más difícil."
+          ]
+        },
+        {
+          "titulo": "Cómo lo resuelve un cerrajero",
+          "texto": [
+            "El cerrajero utiliza extractores de llaves, unas láminas muy finas con dientes o ganchos que se introducen junto al fragmento y lo arrastran hacia fuera sin dañar el mecanismo. Si el trozo quedó girado, primero lo devuelve a la posición de inserción. En la mayoría de los casos la extracción es rápida y el bombín sigue funcionando con tus llaves.",
+            "Si la puerta está cerrada con llave y no se puede extraer el fragmento sin abrir, el cerrajero abre primero la puerta y luego trabaja con el cilindro. En {nombre} te damos el precio cerrado por teléfono antes de salir y llegamos en {tiempo_llegada} en {ciudad}."
+          ]
+        },
+        {
+          "titulo": "Cuándo hay que cambiar el bombín",
+          "texto": [
+            "Hay que sustituir el cilindro si está dañado por dentro, si se han intentado soluciones caseras como el pegamento, si el fragmento no puede sacarse sin romperlo o si la llave se partió porque el bombín estaba gastado. En ese último caso, aunque se extraiga el trozo, el problema volverá.",
+            "También es buena idea cambiarlo si el bombín es antiguo y básico. Llevamos cilindros de seguridad en la furgoneta, así que el cambio se hace en la misma visita. Y si la llave se rompió porque la puerta roza, conviene ajustarla para que la nueva llave gire sin esfuerzo."
+          ]
+        }
+      ],
+      "pasos": [
+        "Fíjate si el trozo asoma y en qué posición ha quedado",
+        "Si asoma y está en vertical, tira recto con unas pinzas finas",
+        "Usa solo lubricante específico de cerraduras",
+        "No uses pegamento, otra llave ni herramientas para girar",
+        "Si no sale con un tirón suave, llama a un cerrajero",
+        "Revisa por qué se rompió: copia gastada, bombín viejo o puerta que roza"
+      ],
+      "servicio_relacionado": "apertura-de-puertas",
+      "faqs": [
+        {
+          "pregunta": "¿Siempre hay que cambiar el bombín si se rompe la llave dentro?",
+          "respuesta": "No. En la mayoría de casos el fragmento se extrae y el bombín sigue funcionando. Solo hay que cambiarlo si está dañado, si se ha usado pegamento o si está tan gastado que el problema se repetiría."
+        },
+        {
+          "pregunta": "¿Puedo usar pegamento para sacar el trozo de llave?",
+          "respuesta": "No es recomendable. El pegamento suele colarse entre los pitones y bloquear el cilindro, y entonces la única solución es sustituirlo."
+        },
+        {
+          "pregunta": "¿Puedo seguir usando la otra mitad de la llave?",
+          "respuesta": "No. Una vez extraído el fragmento, usa otra copia en buen estado o pide una nueva hecha a partir de la original. Una llave rota o reparada puede volver a partirse."
+        }
+      ]
+    },
+    {
+      "slug": "que-hacer-despues-de-un-robo-en-casa",
+      "titulo": "Qué hacer después de un robo en casa",
+      "titulo_seo": "Qué hacer tras un robo en casa | Cerrajeros Oviedo Express",
+      "descripcion_meta": "Si te han robado en casa: a quién llamar, por qué no tocar nada, cómo denunciar, hacer inventario, avisar al seguro y dejar la puerta segura esa misma noche.",
+      "resumen": "Encontrar tu casa forzada es un golpe. Seguir unos pasos en orden te ayuda a protegerte, facilitar la investigación y que el seguro responda. Esta es la secuencia que recomendamos.",
+      "secciones": [
+        {
+          "titulo": "Si al llegar ves la puerta forzada, no entres",
+          "texto": [
+            "Si encuentras la puerta abierta, la cerradura dañada o señales de que alguien ha entrado, no pases. Los ladrones podrían seguir dentro. Aléjate a un lugar seguro, como el rellano de un vecino o la calle, y llama a la policía.",
+            "En España puedes llamar al 091, el teléfono de la Policía Nacional, o al 112, el número de emergencias. En las zonas donde la competencia es de la Guardia Civil, su número es el 062. En {ciudad} ciudad actúa la Policía Nacional; si vives en un pueblo del concejo o de la zona rural de Asturias, el 112 te pasará con quien corresponda."
+          ]
+        },
+        {
+          "titulo": "No toques nada hasta que llegue la policía",
+          "texto": [
+            "Aunque lo primero que te pida el cuerpo sea comprobar qué falta u ordenar, evita mover objetos, abrir cajones o tocar la cerradura forzada. Puede haber huellas o indicios útiles para la investigación.",
+            "Mientras esperas, si puedes hacerlo sin entrar, haz fotos desde la puerta de cómo ha quedado la vivienda y de los daños en la puerta y la cerradura. Esas imágenes te servirán después para la denuncia y para el seguro."
+          ]
+        },
+        {
+          "titulo": "Presenta la denuncia y pide copia",
+          "texto": [
+            "La llamada al 091 o al 112 sirve para avisar, pero no es la denuncia. Tendrás que presentarla en comisaría, o en el cuartel de la Guardia Civil si es su zona, aunque la policía haya venido a tu casa. Lleva el DNI y la lista de lo que te falta, aunque sea provisional.",
+            "Pide siempre una copia de la denuncia. La aseguradora te la exigirá para tramitar el siniestro. Si después descubres que falta algo más, puedes ampliar la denuncia."
+          ]
+        },
+        {
+          "titulo": "Haz un inventario de lo robado y de los daños",
+          "texto": [
+            "Recorre la casa con calma, una vez que la policía te lo permita, y anota todo lo que falta. Reúne lo que demuestre que lo tenías: facturas, tiques, fotos, cajas con números de serie o el IMEI de los móviles. Anota también los daños: puerta, cerradura, ventanas o muebles.",
+            "Si te han robado tarjetas, documentación o el móvil, bloquéalos cuanto antes y cambia las contraseñas importantes. Si se han llevado llaves de casa, del coche o del trastero, tenlo en cuenta para el cambio de cerraduras."
+          ]
+        },
+        {
+          "titulo": "Avisa a tu seguro de hogar",
+          "texto": [
+            "La Ley de Contrato de Seguro establece un plazo máximo de siete días desde que conoces el siniestro para comunicarlo a la aseguradora, salvo que tu póliza fije uno más amplio. No esperes al último día: llama en cuanto puedas y pregunta qué documentación necesitan.",
+            "Revisa qué cubre tu póliza. No todos los seguros de hogar incluyen el robo, y los límites para joyas o dinero en efectivo suelen ser específicos. Conserva las piezas dañadas, como el bombín roto, y las fotos hasta que la aseguradora te diga si va a enviar un perito.",
+            "Si la cerradura ha quedado inutilizada, muchas pólizas cubren también la reparación urgente de la puerta. Pide una factura detallada del cerrajero: es lo que tendrás que presentar."
+          ]
+        },
+        {
+          "titulo": "Deja la puerta segura cuanto antes",
+          "texto": [
+            "No pases la noche con una puerta que no cierra. Un cerrajero puede reparar o sustituir la cerradura dañada y dejar la vivienda cerrada el mismo día. Cambia el bombín aunque parezca intacto si te han robado llaves o si la cerradura ha recibido golpes.",
+            "Es también el momento de reforzar: un bombín de seguridad con escudo protector, una cerradura de más puntos de cierre o el blindaje de la puerta si es de madera. En {nombre} atendemos urgencias {horario}, llegamos en {tiempo_llegada}, llevamos cilindros de seguridad en la furgoneta y te entregamos factura detallada válida para tu seguro."
+          ]
+        }
+      ],
+      "pasos": [
+        "No entres si ves la puerta forzada; ponte a salvo",
+        "Llama al 091 (Policía Nacional) o al 112",
+        "No toques nada y haz fotos desde la puerta",
+        "Presenta la denuncia y pide copia",
+        "Haz inventario con facturas, fotos y números de serie",
+        "Bloquea tarjetas y móvil si te los han robado",
+        "Comunica el siniestro al seguro en un máximo de siete días",
+        "Repara la cerradura y cambia el bombín; pide factura detallada"
+      ],
+      "servicio_relacionado": "cerrajero-urgente",
+      "faqs": [
+        {
+          "pregunta": "¿Puedo cambiar la cerradura antes de que venga la policía?",
+          "respuesta": "Es mejor esperar a que la policía haya visto la puerta, sobre todo si vas a denunciar. Mientras tanto, haz fotos. Después el cerrajero puede dejar la vivienda cerrada ese mismo día."
+        },
+        {
+          "pregunta": "¿El seguro de hogar paga la cerradura después de un robo?",
+          "respuesta": "Depende de tu póliza. Muchas cubren la reparación de la puerta y la cerradura dañadas, pero no todas incluyen el robo. Revisa tus coberturas y guarda la factura del cerrajero."
+        },
+        {
+          "pregunta": "¿Qué factura necesita la aseguradora?",
+          "respuesta": "Una factura con los datos de la empresa y su NIF, la dirección de la vivienda, la descripción del trabajo y el material sustituido, con el importe desglosado e IVA."
+        }
+      ]
+    }
   ]
 }

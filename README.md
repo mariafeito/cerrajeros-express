@@ -37,10 +37,22 @@ Copia un bloque dentro de `"localidades"` en `contenido.json` y cambia `slug` (p
 `nombre`, `llegada`, textos, barrios y preguntas. Usa `{localidad}` y `{llegada}` dentro de sus textos.
 **Escribe textos distintos para cada zona**: si solo cambias el nombre de la ciudad, Google lo trata como contenido duplicado.
 
+## Añadir un barrio de la ciudad
+
+Los barrios están en `"barrios"` dentro de `contenido.json` (mismo formato que `"localidades"`). Cada uno genera
+`/cerrajeros-<barrio>/` y aparece enlazado en la portada (sección *Barrios*). Igual que con las zonas:
+**textos distintos en cada barrio** (calles, tipo de edificios, problemas habituales), nunca copiar y cambiar el nombre.
+
+## Añadir una guía
+
+Las guías están en `"guias"` dentro de `contenido.json` y se publican en `/guias/<slug>/`. Con
+`"servicio_relacionado"` (slug de un servicio) la guía aparece también en la página de ese servicio.
+
 ## SEO incluido
 
 - Una página por servicio con URL limpia, `<title>` y `meta description` propios, H1 con la ciudad
-- Datos estructurados schema.org: `Locksmith` (negocio local 24h), `Service`, `FAQPage`, `BreadcrumbList`
+- Datos estructurados schema.org: `Locksmith` (negocio local), `Service`, `FAQPage`, `BreadcrumbList`, `Article` (guías)
+- Páginas por barrio de la ciudad y por localidad, con enlazado interno entre ellas
 - `sitemap.xml`, `robots.txt`, URL canónica, Open Graph
 - HTML estático, sin JavaScript ni fuentes externas: carga muy rápida (Core Web Vitals)
 - Páginas legales (aviso legal, privacidad, cookies) con `noindex`
