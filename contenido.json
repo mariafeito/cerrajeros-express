@@ -1,0 +1,261 @@
+{
+  "inicio": {
+    "titulo_seo": "Cerrajeros en {ciudad} ☎ {telefono} | Urgentes, llegada en {tiempo_llegada}",
+    "descripcion_meta": "Cerrajero urgente en {ciudad}. Apertura de puertas sin romper, cambio de cerraduras y bombines, puertas blindadas. Presupuesto cerrado. Llama al {telefono}.",
+    "h1_inicio": "Cerrajeros urgentes en",
+    "h1_destacado": "{ciudad}",
+    "subtitulo": "¿Te has quedado fuera de casa, has perdido las llaves o te han forzado la cerradura? Un cerrajero de {ciudad} sale ahora mismo hacia tu domicilio. Precio cerrado antes de empezar.",
+    "ventajas": [
+      "Llegada en {tiempo_llegada}",
+      "Precio cerrado por teléfono",
+      "Apertura sin romper la cerradura",
+      "Factura y garantía por escrito"
+    ],
+    "texto_titulo": "Tu cerrajero de confianza en {ciudad}",
+    "texto": [
+      "Somos un servicio técnico de cerrajería con más de {anios_experiencia} años trabajando en {ciudad} y en toda la zona centro de {provincia}. Atendemos urgencias a cualquier hora del día o de la noche, también fines de semana y festivos, con técnicos que se desplazan en furgoneta taller equipada para resolver el problema en la primera visita.",
+      "Antes de salir te damos un precio cerrado por teléfono: sabrás lo que vas a pagar antes de que lleguemos. En la mayoría de aperturas trabajamos sin romper la cerradura, con técnicas no destructivas, para que no tengas que pagar un bombín nuevo si no hace falta.",
+      "Además de urgencias, nos encargamos de mejorar la seguridad de viviendas, comunidades y locales: cambio de bombines por modelos antibumping y antiganzúa, cerraduras de seguridad, escudos protectores, blindaje de puertas y cajas fuertes."
+    ],
+    "por_que_titulo": "¿Por qué llamarnos?",
+    "por_que": [
+      "Técnicos locales: conocemos {ciudad} y llegamos rápido",
+      "Sin sorpresas: precio cerrado antes de salir",
+      "Disponibles {horario}",
+      "Trabajamos con todas las marcas de cerraduras",
+      "Pago con tarjeta, Bizum o efectivo",
+      "Factura válida para tu seguro de hogar"
+    ],
+    "pasos": [
+      { "titulo": "Nos llamas", "texto": "Te atiende directamente un cerrajero, no una centralita. Cuéntanos qué te ha pasado." },
+      { "titulo": "Precio cerrado", "texto": "Te damos el precio total por teléfono, con desplazamiento incluido. Sin compromiso." },
+      { "titulo": "Llegamos rápido", "texto": "Un técnico sale hacia tu dirección y llega en {tiempo_llegada} a {ciudad} ciudad." },
+      { "titulo": "Problema resuelto", "texto": "Abrimos, reparamos o cambiamos la cerradura y te entregamos factura y garantía." }
+    ]
+  },
+
+  "servicios": [
+    {
+      "slug": "apertura-de-puertas",
+      "icono": "puerta",
+      "nombre": "Apertura de puertas",
+      "h1": "Apertura de puertas en {ciudad}",
+      "titulo_seo": "Apertura de Puertas en {ciudad} sin romper ☎ {telefono}",
+      "descripcion_meta": "¿Te has quedado fuera? Abrimos tu puerta en {ciudad} en {tiempo_llegada}, sin romper la cerradura en la mayoría de casos. Precio cerrado. Llama al {telefono}.",
+      "resumen": "Te has quedado fuera, se te han olvidado las llaves dentro o la llave se ha roto en el bombín. Abrimos sin romper.",
+      "secciones": [
+        {
+          "titulo": "Abrimos tu puerta sin romper la cerradura",
+          "texto": [
+            "Quedarse fuera de casa es una de las situaciones más habituales y estresantes. Nuestros cerrajeros en {ciudad} utilizan técnicas de apertura no destructivas (radiografía, ganzúa, impresión o apertura por resbalón) que permiten abrir la gran mayoría de puertas sin dañar la cerradura ni la puerta.",
+            "Si la puerta está solo cerrada de golpe (con el resbalón), la apertura suele llevar pocos minutos. Si está cerrada con llave o tiene una cerradura de seguridad, valoramos la mejor técnica para no tener que sustituir el bombín."
+          ]
+        },
+        {
+          "titulo": "Todo tipo de puertas",
+          "texto": [
+            "Abrimos puertas de viviendas, portales, trasteros, garajes, oficinas y locales comerciales: puertas de madera, blindadas, acorazadas, metálicas, de aluminio y PVC, así como persianas y cierres metálicos de negocios.",
+            "Por tu seguridad, antes de abrir una vivienda te pediremos que acredites que vives en ella (DNI con la dirección, contrato de alquiler, recibo de suministros o confirmación de un vecino)."
+          ]
+        }
+      ],
+      "puntos": [
+        "Puertas cerradas de golpe o con llave",
+        "Llaves olvidadas dentro o perdidas",
+        "Llave rota dentro del bombín",
+        "Cerradura bloqueada o atascada",
+        "Puertas blindadas y acorazadas",
+        "Portales, trasteros y garajes"
+      ],
+      "faqs": [
+        { "pregunta": "¿Cuánto cuesta abrir una puerta en {ciudad}?", "respuesta": "Depende del tipo de puerta, de cómo esté cerrada y de la hora. Llámanos al {telefono}, cuéntanos tu caso y te daremos un precio cerrado con el desplazamiento incluido antes de salir." },
+        { "pregunta": "¿Tendré que cambiar la cerradura después de abrir?", "respuesta": "En la mayoría de casos no. Usamos técnicas no destructivas y la cerradura sigue funcionando con tus llaves. Solo si es imposible abrirla de otra forma o si la has perdido y quieres más seguridad, te propondremos cambiar el bombín." }
+      ]
+    },
+    {
+      "slug": "cerrajero-urgente",
+      "icono": "reloj",
+      "nombre": "Cerrajero urgente",
+      "h1": "Cerrajero urgente en {ciudad}",
+      "titulo_seo": "Cerrajero Urgente en {ciudad} ☎ {telefono}",
+      "descripcion_meta": "Cerrajero urgente en {ciudad} a cualquier hora: noches, fines de semana y festivos. Llegamos en {tiempo_llegada}. Presupuesto cerrado. Llama ya al {telefono}.",
+      "resumen": "Noches, fines de semana y festivos. Un técnico sale hacia tu domicilio en cuanto nos llamas, a cualquier hora.",
+      "secciones": [
+        {
+          "titulo": "Urgencias de cerrajería a cualquier hora",
+          "texto": [
+            "Las urgencias no avisan: a las tres de la madrugada, un domingo o en pleno día de Navidad. Nuestro servicio de cerrajero urgente en {ciudad} funciona {horario}, con técnicos de guardia repartidos por la ciudad para llegar en {tiempo_llegada}.",
+            "Cuando llamas al {telefono} te atiende directamente un cerrajero, que te hace un par de preguntas para entender el problema y te da el precio total antes de salir. Sin centralitas ni intermediarios."
+          ]
+        },
+        {
+          "titulo": "Después de un robo o intento de robo",
+          "texto": [
+            "Si te han forzado la puerta, acudimos de inmediato para dejar tu vivienda o negocio cerrado y seguro esa misma noche. Reparamos o sustituimos la cerradura dañada, colocamos un bombín de seguridad y te entregamos un informe y factura detallada para presentar a tu compañía de seguros.",
+            "Recomendamos no tocar la cerradura dañada hasta que haya acudido la policía, si vas a presentar denuncia."
+          ]
+        }
+      ],
+      "puntos": [
+        "Servicio {horario}",
+        "Llegada en {tiempo_llegada}",
+        "Precio cerrado antes de salir",
+        "Reparación urgente tras robo",
+        "Factura para el seguro",
+        "Viviendas, comunidades y negocios"
+      ],
+      "faqs": [
+        { "pregunta": "¿Es más caro llamar de noche o en festivo?", "respuesta": "El servicio nocturno y en festivos tiene un recargo, pero siempre te diremos el precio exacto por teléfono antes de salir, para que decidas sin sorpresas." },
+        { "pregunta": "¿Cuánto tardáis en llegar?", "respuesta": "En {ciudad} ciudad solemos llegar en {tiempo_llegada}. En localidades cercanas el tiempo puede ser algo mayor; te lo indicaremos al llamar." }
+      ]
+    },
+    {
+      "slug": "cambio-de-cerraduras",
+      "icono": "candado",
+      "nombre": "Cambio de cerraduras y bombines",
+      "h1": "Cambio de cerraduras y bombines en {ciudad}",
+      "titulo_seo": "Cambio de Cerraduras y Bombines en {ciudad} ☎ {telefono}",
+      "descripcion_meta": "Cambiamos cerraduras y bombines en {ciudad} en el momento. Bombines antibumping y antiganzúa de las mejores marcas. Instalación en el día. Llama al {telefono}.",
+      "resumen": "Bombines antibumping y antiganzúa, cerraduras de seguridad y escudos protectores. Instalación en el momento.",
+      "secciones": [
+        {
+          "titulo": "¿Cuándo conviene cambiar la cerradura?",
+          "texto": [
+            "Te recomendamos cambiar el bombín o la cerradura cuando te mudas a una vivienda nueva o de alquiler, cuando pierdes las llaves o te las roban, tras un intento de robo, o cuando la cerradura empieza a fallar, cuesta girar la llave o se atasca.",
+            "También es buena idea si tu bombín es antiguo: muchos modelos básicos se pueden abrir con técnicas como el bumping o la ganzúa en pocos segundos."
+          ]
+        },
+        {
+          "titulo": "Bombines de seguridad homologados",
+          "texto": [
+            "Llevamos en la furgoneta bombines de seguridad de las principales marcas del mercado, con protección antibumping, antiganzúa, antitaladro y antiextracción, para que el cambio se haga en el momento y en una sola visita.",
+            "Te asesoramos sobre el nivel de seguridad adecuado para tu puerta y tu presupuesto, y completamos la instalación con un escudo protector si la puerta lo necesita."
+          ]
+        }
+      ],
+      "puntos": [
+        "Bombines antibumping y antiganzúa",
+        "Cerraduras de seguridad multipunto",
+        "Escudos protectores",
+        "Copias de llaves de seguridad",
+        "Amaestramiento para comunidades",
+        "Cerraduras electrónicas"
+      ],
+      "faqs": [
+        { "pregunta": "¿Cuánto se tarda en cambiar un bombín?", "respuesta": "Un cambio de bombín estándar lleva entre 15 y 30 minutos. Si hay que sustituir la cerradura completa puede llevar algo más." },
+        { "pregunta": "¿Qué bombín me recomendáis?", "respuesta": "Depende de tu puerta y del nivel de seguridad que busques. Por teléfono o en la visita te explicamos las opciones con precio cerrado de cada una." }
+      ]
+    },
+    {
+      "slug": "puertas-blindadas-y-acorazadas",
+      "icono": "escudo",
+      "nombre": "Puertas blindadas y acorazadas",
+      "h1": "Puertas blindadas y acorazadas en {ciudad}",
+      "titulo_seo": "Puertas Blindadas y Acorazadas en {ciudad} | Blindaje ☎ {telefono}",
+      "descripcion_meta": "Instalación de puertas blindadas y acorazadas y blindaje de puertas en {ciudad}. Reparación y apertura de puertas de seguridad. Presupuesto sin compromiso: {telefono}.",
+      "resumen": "Instalación, blindaje de tu puerta actual, reparación y apertura de puertas de seguridad.",
+      "secciones": [
+        {
+          "titulo": "Más seguridad para tu vivienda",
+          "texto": [
+            "La puerta de entrada es la principal barrera frente a los robos. En {ciudad} instalamos puertas blindadas y acorazadas a medida, y también blindamos tu puerta actual con chapas de acero, bisagras de seguridad y cerraduras multipunto, una opción más económica que sustituirla.",
+            "Antes de instalar, visitamos tu vivienda, tomamos medidas y te presentamos un presupuesto por escrito y sin compromiso."
+          ]
+        },
+        {
+          "titulo": "Reparación y mantenimiento",
+          "texto": [
+            "Reparamos puertas blindadas que rozan, se descuelgan o cuya cerradura falla, ajustamos bisagras y sustituimos cerraduras de seguridad por modelos actuales. Y si te quedas fuera, abrimos puertas blindadas y acorazadas con técnicas especializadas."
+          ]
+        }
+      ],
+      "puntos": [
+        "Puertas acorazadas a medida",
+        "Blindaje de puertas existentes",
+        "Cerraduras multipunto",
+        "Bisagras y pivotes antipalanca",
+        "Mirillas digitales",
+        "Reparación y ajuste de puertas"
+      ],
+      "faqs": [
+        { "pregunta": "¿Qué diferencia hay entre una puerta blindada y una acorazada?", "respuesta": "La blindada tiene un alma de madera reforzada con chapas de acero; la acorazada tiene una estructura completa de acero, por lo que ofrece mayor resistencia frente a intentos de forzado." },
+        { "pregunta": "¿Se puede blindar mi puerta actual?", "respuesta": "En la mayoría de casos sí. Valoramos el estado de la puerta y el marco y te proponemos la mejor solución con presupuesto cerrado." }
+      ]
+    },
+    {
+      "slug": "cajas-fuertes",
+      "icono": "caja",
+      "nombre": "Cajas fuertes",
+      "h1": "Apertura e instalación de cajas fuertes en {ciudad}",
+      "titulo_seo": "Cajas Fuertes en {ciudad}: Apertura e Instalación ☎ {telefono}",
+      "descripcion_meta": "Abrimos cajas fuertes en {ciudad} por olvido de combinación o pérdida de llave. Instalación de cajas fuertes empotradas y de sobreponer. Llama al {telefono}.",
+      "resumen": "Apertura por olvido de combinación o pérdida de llave, cambio de combinación e instalación de cajas nuevas.",
+      "secciones": [
+        {
+          "titulo": "Apertura de cajas fuertes",
+          "texto": [
+            "Si has olvidado la combinación, se han agotado las pilas de una caja electrónica o has perdido la llave, abrimos tu caja fuerte en {ciudad} intentando siempre no dañarla para que puedas seguir usándola.",
+            "Trabajamos con cajas fuertes de hogar, de hotel y de negocio, mecánicas, electrónicas y de llave. Por seguridad, solicitamos acreditar la propiedad de la caja antes de abrirla."
+          ]
+        },
+        {
+          "titulo": "Instalación y cambio de combinación",
+          "texto": [
+            "Te asesoramos sobre el modelo más adecuado e instalamos cajas fuertes empotradas en pared o suelo y de sobreponer, ancladas correctamente. También cambiamos combinaciones y reparamos cerraduras de cajas fuertes."
+          ]
+        }
+      ],
+      "puntos": [
+        "Apertura por olvido de combinación",
+        "Cajas fuertes electrónicas sin batería",
+        "Pérdida de llave",
+        "Instalación empotrada o de sobreponer",
+        "Cambio de combinación",
+        "Cajas de hotel y negocio"
+      ],
+      "faqs": [
+        { "pregunta": "¿Se rompe la caja fuerte al abrirla?", "respuesta": "Siempre intentamos primero técnicas no destructivas. Si no es posible, realizamos una apertura controlada que permita reparar la caja después." },
+        { "pregunta": "¿Instaláis cajas fuertes en el día?", "respuesta": "Las de sobreponer sí, normalmente. Las empotradas requieren obra y te daremos fecha y presupuesto tras ver el lugar de instalación." }
+      ]
+    },
+    {
+      "slug": "apertura-de-coches",
+      "icono": "coche",
+      "nombre": "Apertura de coches",
+      "h1": "Apertura de coches en {ciudad}",
+      "titulo_seo": "Apertura de Coches en {ciudad} sin daños ☎ {telefono}",
+      "descripcion_meta": "¿Llaves dentro del coche? Abrimos tu vehículo en {ciudad} sin daños, a cualquier hora. Llegamos en {tiempo_llegada} donde estés. Llama al {telefono}.",
+      "resumen": "Llaves olvidadas dentro del coche o cerradura bloqueada. Abrimos sin daños, estés donde estés.",
+      "secciones": [
+        {
+          "titulo": "Abrimos tu coche sin dañarlo",
+          "texto": [
+            "Si te has dejado las llaves dentro del coche o la cerradura no responde, nuestros cerrajeros se desplazan hasta donde estés en {ciudad} y alrededores para abrir tu vehículo con herramientas específicas que no dañan la carrocería, los cristales ni las gomas.",
+            "Abrimos turismos, furgonetas y todoterrenos de la mayoría de marcas. Por seguridad, te pediremos la documentación del vehículo una vez abierto."
+          ]
+        }
+      ],
+      "puntos": [
+        "Llaves olvidadas dentro",
+        "Cerradura de puerta bloqueada",
+        "Apertura de maletero",
+        "Turismos, furgonetas y 4x4",
+        "Desplazamiento a cualquier punto",
+        "Servicio {horario}"
+      ],
+      "faqs": [
+        { "pregunta": "¿Puede dañarse el coche al abrirlo?", "respuesta": "No. Utilizamos herramientas profesionales de apertura sin daños, las mismas que emplean los servicios de asistencia en carretera." }
+      ]
+    }
+  ],
+
+  "faqs": [
+    { "pregunta": "¿Cuánto tarda en llegar un cerrajero en {ciudad}?", "respuesta": "En {ciudad} ciudad solemos llegar en {tiempo_llegada} desde tu llamada. En localidades cercanas el tiempo puede ser algo mayor; te lo diremos al llamar." },
+    { "pregunta": "¿Cuánto cuesta un cerrajero en {ciudad}?", "respuesta": "Depende del servicio, del tipo de puerta o cerradura y de la hora. Llámanos al {telefono}: te daremos un precio cerrado con el desplazamiento incluido antes de salir, sin compromiso." },
+    { "pregunta": "¿Trabajáis de noche, fines de semana y festivos?", "respuesta": "Sí. Nuestro servicio de cerrajería urgente funciona {horario}, incluidos domingos y festivos." },
+    { "pregunta": "¿Podéis abrir la puerta sin romper la cerradura?", "respuesta": "En la gran mayoría de casos sí. Usamos técnicas de apertura no destructivas para que la cerradura siga funcionando con tus llaves." },
+    { "pregunta": "¿Qué necesito para que me abráis la puerta de casa?", "respuesta": "Por seguridad, te pediremos que acredites que vives en la vivienda: DNI con la dirección, contrato de alquiler, un recibo a tu nombre o la confirmación de un vecino." },
+    { "pregunta": "¿Emitís factura? ¿Sirve para el seguro?", "respuesta": "Sí, siempre entregamos factura detallada con garantía. Muchas pólizas de hogar cubren la apertura de puertas o la reparación tras un robo, así que puedes presentarla a tu aseguradora." },
+    { "pregunta": "¿Cómo puedo pagar?", "respuesta": "Aceptamos tarjeta, Bizum y efectivo." }
+  ]
+}

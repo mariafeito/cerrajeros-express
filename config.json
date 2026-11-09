@@ -1,0 +1,38 @@
+{
+  "dominio": "https://www.cerrajeros-oviedo-express.es",
+
+  "nombre_negocio": "Cerrajeros Oviedo Express",
+  "telefono": "614 27 42 14",
+  "telefono_enlace": "",
+  "whatsapp": "34614274214",
+  "whatsapp_mensaje": "Hola, necesito un cerrajero en {ciudad}",
+  "email": "info@cerrajeros-oviedo-express.es",
+  "mostrar_email": false,
+
+  "ciudad": "Oviedo",
+  "provincia": "Asturias",
+  "region": "Principado de Asturias",
+  "codigo_postal": "22006",
+  "direccion": "Fuertes Acevedo, 80",
+  "mostrar_direccion": false,
+  "latitud": "",
+  "longitud": "",
+
+  "abierto_24h": false,
+  "horario": "todos los días del año",
+  "tiempo_llegada": "30-45 min",
+  "anios_experiencia": 15,
+  "rango_precios": "€€",
+
+  "zonas": [
+    "Oviedo centro", "El Cristo", "Ciudad Naranco", "La Corredoria", "Pumarín",
+    "Ventanielles", "Teatinos", "La Florida", "Vallobín", "Buenavista",
+    "Montecerrao", "Colloto", "Lugones", "Pola de Siero", "Lugo de Llanera",
+    "Posada de Llanera", "Soto de Ribera", "Las Regueras", "Mieres", "Grado"
+  ],
+
+  "titular_legal": "Diego Feito García",
+  "nif": "71730289M",
+
+  "google_analytics_id": ""
+}
