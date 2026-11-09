@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.cerrajeros-oviedo-express.es/sitemap.xml
+Sitemap: https://cerrajeros-oviedo-express.es/sitemap.xml
