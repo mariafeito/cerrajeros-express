@@ -208,7 +208,7 @@ def tarjeta_telefono(etiqueta="Cerrajero disponible ahora"):
 <div class="phonecard">
   <p class="phonecard__label"><span class="dot"></span>{e(etiqueta)}</p>
   <a class="bigphone" href="{TEL_HREF}" aria-label="Llamar al {e(TEL)}">{ico("telefono")}<span>{e(TEL)}</span></a>
-  <p class="phonecard__hint">Pulsa el número para llamar · Precio cerrado sin compromiso</p>
+  <p class="phonecard__hint">Precio cerrado por teléfono, sin compromiso</p>
   {boton_wa()}
 </div>"""
 
@@ -315,7 +315,7 @@ def plantilla(titulo, descripcion, ruta, cuerpo, raiz, schemas=(), indexar=True)
 <meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(descripcion)}">
 <meta property="og:url" content="{canonical}">
-<meta name="theme-color" content="#0F0F10">
+<meta name="theme-color" content="#10233A">
 <meta name="format-detection" content="telephone=yes">
 <link rel="icon" href="{raiz}assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{raiz}assets/styles.css">
@@ -324,7 +324,7 @@ def plantilla(titulo, descripcion, ruta, cuerpo, raiz, schemas=(), indexar=True)
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
-<div class="topbar"><span class="dot"></span>Abierto ahora · {e(CFG['horario'])} · Llegamos en {e(CFG['tiempo_llegada'])}</div>
+<div class="topbar"><span class="dot"></span>Atención {e(CFG['horario'])} · Llegada en {e(CFG['tiempo_llegada'])}<span class="topbar__extra"> · Precio cerrado antes de salir</span></div>
 <header class="header">
   <div class="wrap header__in">
     <a class="logo" href="{raiz or './'}"><span class="logo__ico">{ico("llave")}</span><span>{e(CFG['nombre_negocio'])}</span></a>
