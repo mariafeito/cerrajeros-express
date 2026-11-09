@@ -1132,5 +1132,772 @@
         }
       ]
     }
+  ],
+  "barrios": [
+    {
+      "slug": "cerrajeros-oviedo-centro",
+      "nombre": "Oviedo Centro",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en el centro de Oviedo ☎ {telefono} | Casco Antiguo",
+      "descripcion_meta": "Cerrajero en el centro y el Casco Antiguo de Oviedo: aperturas sin romper, bombines de seguridad y cierres de locales. Precio cerrado. Llama al {telefono}.",
+      "h1": "Cerrajeros en el centro de Oviedo y el Casco Antiguo",
+      "intro": "Si vives o tienes un negocio entre la Catedral, la calle Uría y El Fontán, te atendemos en {llegada}. Nos cuentas qué ha pasado, te damos el precio total por teléfono y salimos.",
+      "secciones": [
+        {
+          "titulo": "Portales antiguos y pisos rehabilitados",
+          "texto": [
+            "Muchas casas del Casco Antiguo, en calles como Cimadevilla, Rosal o Mon, conservan puertas de madera maciza y cerraduras de hace décadas. Abrirlas sin dañar la madera pide más paciencia que fuerza, y en la mayoría de los casos lo conseguimos sin romper nada.",
+            "En los pisos rehabilitados para alquiler de temporada o de estudiantes suelen circular muchas copias de la llave. Si acabas de entrar a vivir en uno, cambiar el bombín es la forma más sencilla de saber quién puede abrir tu puerta. Llevamos cilindros antibumping y antiganzúa en la furgoneta y lo dejamos montado en la misma visita."
+          ]
+        },
+        {
+          "titulo": "Comercios y hostelería del centro",
+          "texto": [
+            "Entre la plaza de la Escandalera, la calle San Francisco y la zona de Gascona hay muchos locales con cierre metálico o persiana enrollable. Cuando un candado se bloquea o una llave se parte en el cierre a primera hora, el problema es no poder abrir el negocio; por eso salimos {horario}, también domingos y festivos.",
+            "Si el cierre no tiene arreglo en el momento, lo dejamos asegurado y te explicamos qué pieza hay que sustituir. Te entregamos factura, que te sirve para el seguro del local."
+          ]
+        },
+        {
+          "titulo": "Cómo trabajamos en el centro de Oviedo",
+          "texto": [
+            "Antes de abrir te pedimos algo que acredite que vives o trabajas ahí: el DNI con la dirección, el contrato de alquiler o un recibo. Es una comprobación breve que protege a todos los vecinos del edificio.",
+            "Llevamos 15 años abriendo puertas en Oviedo y conocemos los accesos del centro, incluidas las calles peatonales. Al terminar pagas con tarjeta, Bizum o en efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Catedral y plaza de Alfonso II",
+        "Cimadevilla",
+        "El Fontán",
+        "Calle Mon",
+        "Calle Rosal",
+        "Calle Uría",
+        "Plaza de la Escandalera",
+        "Calle San Francisco",
+        "Calle Gascona",
+        "Plaza de Trascorrales"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Podéis llegar a una calle peatonal del Casco Antiguo?",
+          "respuesta": "Sí. Dejamos la furgoneta en el punto permitido más cercano y subimos con la herramienta. El tiempo de llegada habitual al centro es de {llegada}."
+        },
+        {
+          "pregunta": "¿Abrís cierres metálicos de tiendas en el centro de Oviedo?",
+          "respuesta": "Sí, abrimos y reparamos cierres metálicos, persianas de local y candados de suelo. Si hace falta, cambiamos la cerradura del cierre en el momento."
+        },
+        {
+          "pregunta": "Mi puerta es antigua, de madera. ¿Vais a estropearla?",
+          "respuesta": "Intentamos siempre la apertura sin romper, que en la mayoría de las puertas antiguas es posible. Si hubiera que actuar sobre la cerradura, te lo explicamos y te damos el precio antes de tocar nada."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-la-corredoria",
+      "nombre": "La Corredoria",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en La Corredoria (Oviedo) ☎ {telefono} | Garajes",
+      "descripcion_meta": "Cerrajero en La Corredoria: abrimos pisos, garajes comunitarios y trasteros sin romper. Precio cerrado y factura para el seguro. Llama al {telefono}.",
+      "h1": "Cerrajeros en La Corredoria, Oviedo",
+      "intro": "La Corredoria es un barrio de edificios recientes, con garaje y trastero en casi cada portal, y de ahí nos llegan muchos avisos del norte de Oviedo. Llegamos en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Un barrio nuevo con muchas llaves",
+          "texto": [
+            "Las dos fases de Corredoria Este sumaron miles de viviendas en pocos años, y la mayoría sigue el mismo esquema: portal con videoportero, ascensor, plaza de garaje y trastero. Son cuatro o cinco llaves distintas por familia, y es fácil que alguna se pierda.",
+            "Si pierdes el llavero completo, lo prudente es cambiar el bombín de la vivienda ese mismo día. Lo hacemos con cilindros antibumping que llevamos en la furgoneta, y para el portal o el garaje te indicamos cómo pedir copias a la comunidad o al administrador."
+          ]
+        },
+        {
+          "titulo": "Garajes y trasteros comunitarios",
+          "texto": [
+            "En calles como Cardenal Álvarez Martínez, Francisco Pintado Fe o Jaime Truyols Santonja los garajes son amplios y tienen muchos trasteros en el mismo pasillo. Nos llaman cuando una cerradura de trastero se agarrota por la humedad o cuando alguien se deja la llave dentro.",
+            "Abrimos trasteros y puertas peatonales de garaje, y para las comunidades hacemos amaestramiento, de modo que cada vecino use una sola llave para portal, garaje y trastero."
+          ]
+        },
+        {
+          "titulo": "Cuándo y cómo vamos",
+          "texto": [
+            "Trabajamos {horario}. Entramos a La Corredoria por la AS-II, así que el tiempo habitual es de {llegada}, según el tráfico y la hora.",
+            "Al llegar te pedimos que acredites que vives en la vivienda, por ejemplo con el DNI o el contrato de alquiler. Después abrimos, casi siempre sin romper nada, y cobramos con tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Corredoria Este",
+        "Corredoria Alta",
+        "Plaza del Conceyín",
+        "Calle Cardenal Álvarez Martínez",
+        "Calle Francisco Pintado Fe",
+        "Calle Jaime Truyols Santonja",
+        "Calle Maestro Don Marciano",
+        "Entorno del Corredoria Arena",
+        "La Carisa",
+        "Prado de la Vega"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Abrís garajes comunitarios en La Corredoria?",
+          "respuesta": "Sí. Abrimos la puerta peatonal del garaje y los trasteros. Si el problema está en el motor de la puerta basculante, te lo indicamos para que avises a la empresa de mantenimiento de la comunidad."
+        },
+        {
+          "pregunta": "Me he dejado las llaves dentro del trastero, ¿qué hacéis?",
+          "respuesta": "Abrimos la cerradura del trastero, normalmente sin romperla. Si está muy oxidada y hay que cambiarla, te damos el precio antes."
+        },
+        {
+          "pregunta": "¿Cuánto tardáis en llegar a La Corredoria?",
+          "respuesta": "Entre {llegada}, según la hora. Al llamar te damos una estimación concreta y el precio cerrado."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-el-cristo",
+      "nombre": "El Cristo",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajero en El Cristo, Oviedo ☎ {telefono} | Pisos y estudiantes",
+      "descripcion_meta": "Cerrajero urgente en El Cristo (Oviedo), junto al campus y el HUCA: aperturas sin romper y cambio de bombín en pisos de alquiler. Llama al {telefono}.",
+      "h1": "Cerrajero urgente en El Cristo",
+      "intro": "Entre el Campus del Cristo y la avenida Cristo de las Cadenas viven muchos estudiantes y personal del HUCA, con horarios poco habituales. Por eso atendemos {horario} y llegamos en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Pisos de estudiantes y de alquiler",
+          "texto": [
+            "En El Cristo hay muchos pisos compartidos que cambian de inquilinos cada curso. Cada cambio deja llaves sueltas: antiguos compañeros, caseros, alguna copia que nadie devolvió. Si empiezas un contrato, te recomendamos cambiar el bombín y quedarte con todas las copias nuevas.",
+            "Si eres propietario y alquilas por habitaciones, podemos instalar cerraduras con llave en cada puerta de dormitorio, con llaves distintas para cada inquilino."
+          ]
+        },
+        {
+          "titulo": "Turnos de noche y salidas de madrugada",
+          "texto": [
+            "Quien trabaja en el hospital sabe lo que es volver a casa a las ocho de la mañana después de una guardia y encontrarse con que la llave no gira. Salimos a cualquier hora del día, fines de semana y festivos incluidos, y te damos el precio antes de ponernos en marcha.",
+            "En la mayoría de los casos abrimos sin romper la cerradura. Si la llave se ha partido dentro, la extraemos y comprobamos si el cilindro se puede seguir usando o conviene sustituirlo."
+          ]
+        },
+        {
+          "titulo": "Lo que te pedimos al llegar",
+          "texto": [
+            "Antes de abrir necesitamos comprobar que vives allí. En un piso de estudiantes sirve el contrato de alquiler o cualquier documento con tu nombre y esa dirección.",
+            "Al terminar te damos factura, válida para el seguro del hogar, y puedes pagar con tarjeta, Bizum o en efectivo. Llevamos 15 años trabajando en Oviedo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Campus del Cristo",
+        "Avenida Cristo de las Cadenas",
+        "Iglesia del Cristo de las Cadenas",
+        "Entorno del HUCA",
+        "Calle Costa Verde",
+        "Centro de Salud de El Cristo",
+        "Montecerrao"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cambiáis la cerradura de un piso de estudiantes en El Cristo al empezar el curso?",
+          "respuesta": "Sí. Cambiamos el bombín en la misma visita por un cilindro de seguridad y te entregamos todas las llaves nuevas."
+        },
+        {
+          "pregunta": "Salgo de una guardia en el HUCA de madrugada y no puedo entrar en casa, ¿venís?",
+          "respuesta": "Sí, trabajamos {horario}. Llámanos al {telefono}, te damos precio cerrado y salimos; solemos llegar en {llegada}."
+        },
+        {
+          "pregunta": "¿Podéis poner cerradura en la puerta de mi habitación?",
+          "respuesta": "Sí, instalamos cerraduras con llave en puertas interiores. Te explicamos las opciones y el precio antes de hacerlo."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-buenavista",
+      "nombre": "Buenavista",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Buenavista (Oviedo) ☎ {telefono} | Precio cerrado",
+      "descripcion_meta": "Cerrajeros en Buenavista (Oviedo), junto al Calatrava: aperturas de pisos y oficinas, cambio de cerraduras y refuerzo de puertas. Llama al {telefono}.",
+      "h1": "Cerrajeros en Buenavista, Oviedo",
+      "intro": "Buenavista mezcla bloques de vivienda de varias décadas con las oficinas y comercios del entorno del Palacio de Congresos de Calatrava. Atendemos aperturas, cambios de cerradura y cierres de locales en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Viviendas de distintas épocas",
+          "texto": [
+            "En Buenavista conviven edificios de hace varias décadas, donde aún hay puertas sencillas con un solo punto de cierre, y promociones más recientes con puerta blindada. Cada caso pide una técnica distinta de apertura, y en la gran mayoría conseguimos entrar sin dañar la cerradura.",
+            "Si tu puerta es antigua, te proponemos reforzarla con un bombín antibumping y un escudo protector, sin cambiar la hoja. Es una mejora que se hace en una sola visita con el material que llevamos encima."
+          ]
+        },
+        {
+          "titulo": "Oficinas y locales junto al Calatrava",
+          "texto": [
+            "Donde estuvo el antiguo estadio Carlos Tartiere se levanta hoy el Palacio de Exposiciones y Congresos, y en las calles de alrededor, como Arturo Álvarez Buylla o Policarpo Herrero, hay oficinas y comercios. Para ellos abrimos puertas con cerradura de seguridad, cambiamos bombines cuando un empleado deja la empresa y revisamos cierres metálicos.",
+            "Si el problema surge un domingo o un festivo, también salimos. Te damos el precio cerrado por teléfono y la factura a nombre de la empresa."
+          ]
+        },
+        {
+          "titulo": "Antes de abrir",
+          "texto": [
+            "Te pedimos un documento que acredite que vives o trabajas en esa dirección. Sirven el DNI, el contrato de alquiler o un recibo de suministros a tu nombre. Es una comprobación de un minuto que evita abrir una casa a quien no vive en ella.",
+            "Llevamos 15 años trabajando en Oviedo. Pagas como prefieras: tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Palacio de Congresos (Calatrava)",
+        "Calle Arturo Álvarez Buylla",
+        "Calle Policarpo Herrero",
+        "Centro comercial Modoo",
+        "Montecerrao",
+        "El Cristo"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Hacéis aperturas de oficinas en Buenavista?",
+          "respuesta": "Sí. Abrimos oficinas y locales, y cambiamos el bombín si se han perdido llaves o ha habido cambios de personal. Te damos factura a nombre de la empresa."
+        },
+        {
+          "pregunta": "¿Merece la pena poner un bombín antibumping en una puerta antigua?",
+          "respuesta": "Sí. En la mayoría de las puertas es un cambio sencillo que dificulta las técnicas de apertura más comunes, y lo montamos en la misma visita."
+        },
+        {
+          "pregunta": "¿Venís a Buenavista un día festivo?",
+          "respuesta": "Sí, trabajamos {horario}. El tiempo habitual de llegada es de {llegada}."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-vallobin",
+      "nombre": "Vallobín",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Vallobín ☎ {telefono} | Apertura sin romper",
+      "descripcion_meta": "Cerrajero en Vallobín (Oviedo): abrimos puertas sin romper, cambiamos bombines y cerraduras de portal y buzones. Precio antes de salir. Llama al {telefono}.",
+      "h1": "Cerrajeros en Vallobín",
+      "intro": "Vallobín es un barrio de bloques de pisos y comercio de proximidad, entre Ciudad Naranco y La Florida. Si no puedes entrar en casa, un cerrajero sale hacia allí en cuanto llamas.",
+      "secciones": [
+        {
+          "titulo": "Pisos de toda la vida",
+          "texto": [
+            "En calles como Vázquez de Mella o Maximiliano Arboleya, y en la zona de La Losa, muchas viviendas mantienen la puerta original del edificio. Son puertas que se cierran de golpe con facilidad: si te dejas las llaves dentro, basta una corriente de aire para quedarte en el rellano.",
+            "Ese es el aviso más común que recibimos de Vallobín, y también el más sencillo de resolver. En la mayoría de las ocasiones abrimos sin romper el bombín y sin dejar marcas en la puerta."
+          ]
+        },
+        {
+          "titulo": "Cerraduras de portal y buzones",
+          "texto": [
+            "En los portales con muchos años de uso la cerradura acaba desgastada y la llave entra con dificultad. Para las comunidades de Vallobín cambiamos la cerradura del portal y hacemos las copias necesarias para todos los vecinos. Si solo falla el resbalón o la cerradura no encaja bien en el cerradero, a veces basta con un ajuste y no hace falta cambiar nada.",
+            "También abrimos buzones cuando se pierde la llave y sustituimos su cerradura en el momento, algo que se suele aprovechar cuando un piso cambia de inquilino."
+          ]
+        },
+        {
+          "titulo": "Precio, horario y pago",
+          "texto": [
+            "Al llamar nos explicas qué ocurre y te damos el precio cerrado. Llegamos en {llegada} y trabajamos {horario}, incluidos fines de semana.",
+            "Antes de abrir te pediremos que acredites que vives allí. Al acabar te entregamos factura válida para el seguro de hogar y puedes pagar con tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Calle Vázquez de Mella",
+        "Calle Maximiliano Arboleya",
+        "La Losa",
+        "Calle Doctor Solís Cajigal",
+        "Estadio de Vallobín",
+        "Ciudad Naranco",
+        "La Florida"
+      ],
+      "faqs": [
+        {
+          "pregunta": "Se me ha cerrado la puerta de golpe en Vallobín, ¿podéis abrir sin romper?",
+          "respuesta": "En la gran mayoría de los casos, sí. Una puerta cerrada de golpe, sin echar la llave, se suele abrir sin dañar la cerradura."
+        },
+        {
+          "pregunta": "¿Cambiáis la cerradura del portal para toda la comunidad?",
+          "respuesta": "Sí. Instalamos la cerradura nueva y hacemos las copias para los vecinos. Te damos el presupuesto cerrado antes de empezar."
+        },
+        {
+          "pregunta": "¿Abrís buzones en Vallobín?",
+          "respuesta": "Sí, abrimos el buzón y, si quieres, cambiamos la cerradura en la misma visita."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-pumarin",
+      "nombre": "Pumarín",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Pumarín (Oviedo) ☎ {telefono} | Todos los días",
+      "descripcion_meta": "Cerrajero en Pumarín, Oviedo: llaves rotas, puertas cerradas de golpe y cambio de bombín por uno de seguridad. Todos los días del año. Llama al {telefono}.",
+      "h1": "Cerrajero en Pumarín, Oviedo",
+      "intro": "Trabajamos en Pumarín y en la vecina Teatinos con el mismo criterio: precio cerrado por teléfono, llegada en {llegada} y apertura sin romper siempre que se pueda.",
+      "secciones": [
+        {
+          "titulo": "Bloques de los años sesenta y setenta",
+          "texto": [
+            "Buena parte de Pumarín son bloques de vivienda con varias décadas, algunos todavía sin ascensor. Subir cuatro pisos con la herramienta no es un problema; lo que sí notamos es que en estos edificios abundan los bombines antiguos, vulnerables a técnicas como el bumping.",
+            "Si tu cerradura tiene muchos años, lo razonable es sustituirla por un cilindro antibumping y antiganzúa. Los llevamos en la furgoneta, así que el cambio se hace en el mismo momento."
+          ]
+        },
+        {
+          "titulo": "Llaves rotas y cerraduras que no giran",
+          "texto": [
+            "Con el uso, una llave se desgasta, se dobla y un día se parte dentro del cilindro. Es una avería frecuente en cerraduras antiguas: extraemos el trozo y comprobamos si la cerradura sigue funcionando bien o si es mejor cambiarla.",
+            "Si tienes copia de la llave, a veces basta con sacar el fragmento. Si no la tienes, te damos el precio del bombín nuevo antes de montarlo."
+          ]
+        },
+        {
+          "titulo": "Comercio de barrio en la avenida de Pumarín",
+          "texto": [
+            "En la avenida de Pumarín y en la avenida del Mar hay comercio de proximidad con persianas metálicas y cierres enrollables. Si el cierre se queda bloqueado al abrir por la mañana, salimos para que no pierdas el día.",
+            "Al terminar recibes factura y puedes pagar con tarjeta, Bizum o efectivo. Antes de abrir cualquier vivienda o local te pedimos que acredites que es tuyo o que vives allí."
+          ]
+        }
+      ],
+      "barrios": [
+        "Avenida de Pumarín",
+        "Avenida del Mar",
+        "Calle General Elorza",
+        "Calle Padre Buenaventura de Paredes",
+        "Calle Llano Ponte",
+        "Teatinos"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué bombín me recomendáis para un piso antiguo en Pumarín?",
+          "respuesta": "Un cilindro de seguridad antibumping y antiganzúa de la medida de tu puerta. Medimos en el momento y lo instalamos con los que llevamos en la furgoneta."
+        },
+        {
+          "pregunta": "Se me ha roto la llave dentro de la cerradura, ¿qué hago?",
+          "respuesta": "No intentes sacarla con pinzas, porque puedes empujarla más adentro. Llámanos al {telefono}: extraemos el fragmento y, si hace falta, cambiamos el bombín."
+        },
+        {
+          "pregunta": "¿Abrís persianas metálicas de comercios en Pumarín?",
+          "respuesta": "Sí. Abrimos y reparamos cierres y persianas metálicas de locales, también en fin de semana."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-ciudad-naranco",
+      "nombre": "Ciudad Naranco",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Ciudad Naranco ☎ {telefono} | Pisos y chalets",
+      "descripcion_meta": "Cerrajero en Ciudad Naranco (Oviedo): pisos, casas y chalets en la falda del monte. Abrimos sin romper y cambiamos cerraduras. Llama al {telefono}.",
+      "h1": "Cerrajeros en Ciudad Naranco",
+      "intro": "Ciudad Naranco se extiende por la ladera sur del monte, desde los bloques de pisos hasta las casas de la parte alta. Damos servicio en toda la zona en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "De los bloques de pisos a las casas de la ladera",
+          "texto": [
+            "En la parte baja de Ciudad Naranco predominan los edificios de viviendas con portal y garaje. Subiendo hacia la avenida de los Monumentos y la avenida de San Pedro de los Arcos aparecen casas unifamiliares y chalets, con puerta de entrada, cancela y a veces un garaje independiente.",
+            "En una vivienda unifamiliar suele haber varias cerraduras que proteger. Revisamos la puerta principal, instalamos cerraduras multipunto y cambiamos cilindros por modelos antibumping."
+          ]
+        },
+        {
+          "titulo": "Cancelas y puertas exteriores",
+          "texto": [
+            "Las cerraduras expuestas a la lluvia, como las de cancelas y portones, se oxidan y acaban atascándose. Cuando la llave ya no entra, abrimos y sustituimos la cerradura por una adecuada para exterior.",
+            "Si te mudas a una casa en la zona, conviene cambiar todos los cilindros de una vez. Te damos el precio del conjunto por teléfono antes de ir. Y si alguna puerta exterior apenas se usa, revisamos también su cerradura para que no te falle el día que la necesites."
+          ]
+        },
+        {
+          "titulo": "Lo práctico",
+          "texto": [
+            "Trabajamos {horario}, también sábados, domingos y festivos. Antes de abrir te pedimos que demuestres que vives en la vivienda; es lo mismo que esperarías si se tratara de la casa de tu vecino.",
+            "Llevamos 15 años de oficio en Oviedo. Te damos factura válida para el seguro de hogar y puedes pagar con tarjeta, Bizum o en efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Calle Ramiro I",
+        "Avenida de los Monumentos",
+        "Avenida de San Pedro de los Arcos",
+        "Prados de la Fuente",
+        "Entorno de Santa María del Naranco",
+        "Vallobín"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Trabajáis en las casas de la parte alta de Ciudad Naranco?",
+          "respuesta": "Sí, en toda la ladera, desde los bloques hasta las casas cercanas a la avenida de los Monumentos. Llegamos en {llegada}."
+        },
+        {
+          "pregunta": "La cerradura de mi cancela está oxidada y no abre, ¿la cambiáis?",
+          "respuesta": "Sí. Abrimos la cancela y montamos una cerradura apta para exterior. Te damos el precio antes de salir."
+        },
+        {
+          "pregunta": "¿Podéis poner una cerradura multipunto en la puerta de mi casa?",
+          "respuesta": "Sí, instalamos cerraduras multipunto y escudos protectores. Te explicamos las opciones según el tipo de puerta."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-otero",
+      "nombre": "Otero",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Otero, Oviedo ☎ {telefono} | Cambio de bombín",
+      "descripcion_meta": "Cerrajero en Otero y San Lázaro (Oviedo): aperturas sin romper, cambio de bombín al mudarte y cerraduras de portal. Precio cerrado. Llama al {telefono}.",
+      "h1": "Cerrajero en Otero, Oviedo",
+      "intro": "Otero, junto a San Lázaro y Villafría en el sur de Oviedo, reúne vecinos de toda la vida y gente que llega de alquiler. A todos les atendemos igual: precio cerrado y llegada en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Mudanzas y pisos de alquiler",
+          "texto": [
+            "Cuando entras a vivir en un piso de Otero no sabes cuántas copias de la llave hicieron los inquilinos anteriores. El cambio de bombín resuelve esa duda en una visita corta, y te quedas con un juego de llaves que solo tienes tú.",
+            "Si eres propietario y cambias de inquilino, también te interesa hacerlo. Te damos factura a tu nombre para que la guardes junto al contrato. Si el piso tiene trastero o buzón, cambiar esas cerraduras en la misma visita evita tener que volver a llamar."
+          ]
+        },
+        {
+          "titulo": "Edificios sin ascensor y puertas antiguas",
+          "texto": [
+            "En Otero hay muchos bloques de vivienda con varias décadas, algunos sin ascensor, con puertas de vivienda que no se han cambiado desde entonces. En ellos encontramos cerraduras de un solo punto y bombines sin protección frente al bumping.",
+            "Sin cambiar la puerta se puede mejorar bastante: un cilindro de seguridad, un escudo protector y, si la hoja lo permite, un cerrojo adicional. Te lo explicamos en el momento y decides tú."
+          ]
+        },
+        {
+          "titulo": "Cómo funciona el servicio",
+          "texto": [
+            "Nos llamas, nos cuentas qué pasa y te damos el precio total. Salimos {horario}, festivos incluidos.",
+            "Antes de abrir te pedimos que acredites que vives en la vivienda. Abrimos casi siempre sin romper y cobramos con tarjeta, Bizum o efectivo. Son 15 años haciendo este trabajo en Oviedo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Calle Otero",
+        "San Lázaro",
+        "Villafría",
+        "Colegio de Villafría",
+        "Centro social de Otero",
+        "Calle Armando Collar"
+      ],
+      "faqs": [
+        {
+          "pregunta": "Me acabo de mudar a Otero, ¿cuánto se tarda en cambiar el bombín?",
+          "respuesta": "Normalmente menos de media hora. Llevamos cilindros de seguridad en la furgoneta y lo dejamos instalado en la misma visita."
+        },
+        {
+          "pregunta": "¿Trabajáis también en San Lázaro y Villafría?",
+          "respuesta": "Sí, damos servicio en todo el entorno de Otero, San Lázaro y Villafría, con llegada habitual en {llegada}."
+        },
+        {
+          "pregunta": "¿Podéis reforzar mi puerta sin cambiarla?",
+          "respuesta": "Sí. Instalamos bombín antibumping, escudo protector y, según la puerta, un cerrojo de seguridad. Te damos el precio antes de empezar."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-teatinos",
+      "nombre": "Teatinos",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Teatinos (Oviedo) ☎ {telefono} | Urgencias",
+      "descripcion_meta": "Cerrajero en Teatinos, Oviedo: abrimos tu puerta sin romper, cambiamos bombines y arreglamos cerraduras de portal todos los días. Llama al {telefono}.",
+      "h1": "Cerrajeros en Teatinos, Oviedo",
+      "intro": "Teatinos toma su nombre de la antigua fuente de los Teatinos y hoy es un barrio residencial con mucha vida de calle. Si necesitas un cerrajero aquí, llegamos en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Portales con muchos vecinos",
+          "texto": [
+            "Varias calles de Teatinos, como Puerto Pajares o Puerto San Isidro, llevan nombre de puertos de montaña asturianos. Son calles de bloques de vivienda con portales compartidos por muchas familias, donde una cerradura de portal averiada afecta a todo el edificio.",
+            "Cuando el portal no abre o no cierra, la comunidad necesita una solución ese mismo día. Abrimos, sustituimos la cerradura si está dañada y hacemos las copias para los vecinos. La cerradura nueva se monta en el momento, sin tener que volver otro día."
+          ]
+        },
+        {
+          "titulo": "Si te quedas fuera de casa",
+          "texto": [
+            "Lo más habitual es la puerta cerrada de golpe con las llaves dentro. No hace falta que esperes al día siguiente ni que llames a varios sitios: te damos el precio en la misma llamada y salimos {horario}. Mientras llegamos, busca un sitio resguardado y ten a mano algún documento con tu dirección.",
+            "En la mayoría de los casos abrimos sin romper la cerradura. Si la puerta es blindada y estaba cerrada con llave, te explicamos antes cómo vamos a proceder y cuánto cuesta."
+          ]
+        },
+        {
+          "titulo": "Seguridad para tu vivienda",
+          "texto": [
+            "Si tu bombín tiene muchos años, es probable que no tenga protección contra el bumping. Lo sustituimos por un cilindro antibumping y antiganzúa de los que llevamos en la furgoneta.",
+            "Antes de abrir pedimos que acredites que vives allí. Te damos factura válida para el seguro del hogar y aceptamos tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Calle Puerto Pajares",
+        "Calle Puerto San Isidro",
+        "Calle Juan Antonio Álvarez Rabanal",
+        "Parroquia de Nuestra Señora de Covadonga",
+        "Avenida del Mar",
+        "Pumarín"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cambiáis la cerradura del portal en Teatinos?",
+          "respuesta": "Sí. Sustituimos cerraduras de portal y hacemos las copias para la comunidad. El presupuesto es cerrado antes de empezar."
+        },
+        {
+          "pregunta": "Mi puerta es blindada y la cerré con llave, ¿podéis abrirla sin romper?",
+          "respuesta": "Depende de la cerradura. En muchos casos sí; si no es posible, te explicamos la alternativa y el precio antes de hacer nada."
+        },
+        {
+          "pregunta": "¿Cuánto tardáis en llegar a Teatinos?",
+          "respuesta": "El tiempo habitual es de {llegada}. Al llamar te damos una estimación más ajustada según la hora."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-la-florida",
+      "nombre": "La Florida",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en La Florida, Oviedo ☎ {telefono} | Blindadas",
+      "descripcion_meta": "Cerrajero en La Florida, Oviedo: pisos con garaje y trastero, puertas blindadas y cambio de bombín al estrenar casa. Precio cerrado. Llama al {telefono}.",
+      "h1": "Cerrajeros en La Florida, Oviedo",
+      "intro": "La Florida es un barrio reciente del oeste de Oviedo, de calles anchas y edificios de pocos años. Llegamos en {llegada} y te damos el precio antes de salir.",
+      "secciones": [
+        {
+          "titulo": "Puertas blindadas en edificios nuevos",
+          "texto": [
+            "Muchos pisos de La Florida tienen puerta blindada desde la construcción. Son puertas resistentes, pero el bombín que traen de serie no siempre está a la altura, y buena parte de la seguridad de la puerta depende de ese cilindro.",
+            "Si acabas de estrenar o comprar vivienda en el paseo de la Florida o en calles como Candamo o Pravia, te proponemos cambiar ese bombín por uno antibumping y antiganzúa. Lo hacemos en la misma visita y te quedas con llaves que nadie más ha tenido."
+          ]
+        },
+        {
+          "titulo": "Garajes, trasteros y llaves de comunidad",
+          "texto": [
+            "Los edificios de La Florida suelen tener garaje y trastero, y cada llave es distinta. Si pierdes el llavero, nos ocupamos de la vivienda y del trastero, y te orientamos sobre el mando y la llave del garaje comunitario. Si el trastero tiene una cerradura sencilla, también podemos sustituirla por otra más resistente.",
+            "Para comunidades que quieran simplificar, hacemos amaestramiento: una sola llave por vecino para portal, garaje y trastero, mientras que la llave de cada vivienda solo abre la suya."
+          ]
+        },
+        {
+          "titulo": "Servicio en el oeste de Oviedo",
+          "texto": [
+            "De La Florida a Las Campas o Vallobín trabajamos {horario}. El tiempo habitual de llegada es de {llegada}, y al llamar te damos una estimación más precisa.",
+            "Para abrir pedimos que acredites que vives allí. Abrimos sin romper en la mayoría de los casos, emitimos factura válida para el seguro y puedes pagar con tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Paseo de la Florida",
+        "Calle Candamo",
+        "Calle Pravia",
+        "Calle Navia",
+        "Calle Adelantado de La Florida",
+        "Las Campas",
+        "Vallobín"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Merece la pena cambiar el bombín de una puerta blindada nueva?",
+          "respuesta": "Si el cilindro es el de serie, normalmente sí. Uno antibumping y antiganzúa mejora la protección sin tocar la puerta."
+        },
+        {
+          "pregunta": "He perdido la llave del trastero, ¿lo abrís?",
+          "respuesta": "Sí, abrimos la puerta del trastero y cambiamos la cerradura si hace falta, en la misma visita."
+        },
+        {
+          "pregunta": "¿Vais también a Las Campas?",
+          "respuesta": "Sí, damos servicio en La Florida, Las Campas y el resto del oeste de Oviedo, con el mismo precio cerrado por teléfono."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-ventanielles",
+      "nombre": "Ventanielles",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Ventanielles ☎ {telefono} | Sin romper la cerradura",
+      "descripcion_meta": "Cerrajero en Ventanielles (Oviedo): aperturas sin romper, llaves partidas, cerraduras de portal y buzones. Precio cerrado. Llama al {telefono}.",
+      "h1": "Cerrajero urgente en Ventanielles",
+      "intro": "En Ventanielles, junto a La Tenderina y Fozaneldi, atendemos aperturas y cambios de cerradura {horario}. Te damos el precio por teléfono y salimos.",
+      "secciones": [
+        {
+          "titulo": "Bloques de vecinos con muchos años",
+          "texto": [
+            "Ventanielles es un barrio de bloques de vivienda con décadas de historia, algunos sin ascensor y con portales por los que han pasado varias generaciones. En estos edificios las cerraduras del portal y de los buzones soportan mucho uso y acaban fallando.",
+            "Cuando un portal deja de cerrar bien, el edificio queda abierto a cualquiera. Cambiamos la cerradura y entregamos las copias a la comunidad, o te las dejamos para que las repartas. Si la puerta del portal es de hierro y cristal, revisamos también el resbalón y el cierre automático, que suelen desajustarse con los golpes."
+          ]
+        },
+        {
+          "titulo": "Puertas que no abren",
+          "texto": [
+            "La llave que gira en falso, la que entra a medias o la que se parte dentro son averías habituales en cerraduras antiguas. Extraemos el trozo, revisamos el cilindro y te decimos si basta con eso o si conviene cambiar el bombín.",
+            "Para quien vive en un piso alto sin ascensor, quedarse fuera es doblemente incómodo. Llegamos en {llegada} y en la mayoría de los casos abrimos sin dañar la puerta."
+          ]
+        },
+        {
+          "titulo": "Seguridad sin obras",
+          "texto": [
+            "Una puerta antigua se puede mejorar sin sustituirla: bombín antibumping, escudo protector y, si la hoja lo admite, un cerrojo de seguridad. Así la puerta que ya tienes gana resistencia frente al bumping y la ganzúa. Llevamos el material en la furgoneta.",
+            "Antes de abrir te pedimos que acredites que vives en la vivienda. Llevamos 15 años trabajando en Oviedo; te damos factura válida para el seguro y puedes pagar con tarjeta, Bizum o efectivo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Plaza Lago Enol",
+        "Calle Río Sella",
+        "Calle Río Navia",
+        "La Tenderina",
+        "Fozaneldi"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cambiáis la cerradura del portal en Ventanielles?",
+          "respuesta": "Sí, la sustituimos y hacemos las copias que necesite la comunidad. Te damos el precio antes de ir."
+        },
+        {
+          "pregunta": "Se me ha partido la llave en la cerradura, ¿podéis sacarla?",
+          "respuesta": "Sí. Extraemos el fragmento y comprobamos el estado del bombín. Si está dañado, lo cambiamos en el momento."
+        },
+        {
+          "pregunta": "¿Abrís buzones en Ventanielles?",
+          "respuesta": "Sí, abrimos el buzón y cambiamos su cerradura si quieres. Se puede hacer en la misma visita que otra apertura."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-montecerrao",
+      "nombre": "Montecerrao",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Montecerrao (Oviedo) ☎ {telefono} | Pisos nuevos",
+      "descripcion_meta": "Cerrajero en Montecerrao, Oviedo: pisos nuevos con garaje y trastero, puertas blindadas y cambio de bombín al comprar o alquilar. Llama al {telefono}.",
+      "h1": "Cerrajeros en Montecerrao, Oviedo",
+      "intro": "Montecerrao es una zona residencial moderna junto al Palacio de Congresos de Calatrava y El Cristo. Te atendemos en {llegada}, con el precio cerrado antes de salir.",
+      "secciones": [
+        {
+          "titulo": "Promociones recientes, llaves de varios tipos",
+          "texto": [
+            "En calles como Monte Cerrau, José María Marcilla o Doctor Bellmunt los edificios tienen pocos años y es habitual que incluyan plaza de garaje y trastero. Las puertas de las viviendas suelen ser blindadas, con cerraduras de seguridad más complejas que las de un piso antiguo.",
+            "Por eso, cuando alguien se queda fuera en Montecerrao, elegimos la técnica según el tipo de cerradura. En la mayoría de las puertas blindadas conseguimos abrir sin romper; si no es posible, te lo explicamos antes. Una cerradura de varios puntos lleva algo más de tiempo, y también te lo decimos de antemano."
+          ]
+        },
+        {
+          "titulo": "Cambio de bombín al comprar o alquilar",
+          "texto": [
+            "Al estrenar un piso, las llaves han pasado por la constructora, la inmobiliaria y quizá algún operario. En un piso de segunda mano o de alquiler, por más manos todavía. Cambiar el cilindro es la forma de empezar con todas las copias bajo control.",
+            "Llevamos bombines antibumping y antiganzúa de distintas medidas, así que lo dejamos cambiado en la misma visita. Si quieres, cambiamos también la cerradura del trastero. Te damos factura, útil para el seguro de hogar."
+          ]
+        },
+        {
+          "titulo": "Disponibilidad",
+          "texto": [
+            "Trabajamos {horario}, también fines de semana y festivos. Si nos llamas desde Montecerrao, te decimos el tiempo estimado y el precio en la misma llamada.",
+            "Antes de abrir te pedimos que acredites que vives allí. Después puedes pagar con tarjeta, Bizum o efectivo. Llevamos 15 años de oficio en Oviedo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Calle Monte Cerrau",
+        "Calle José María Marcilla",
+        "Calle Doctor Bellmunt",
+        "Calle Langreo",
+        "Palacio de Congresos (Calatrava)",
+        "El Cristo",
+        "Buenavista"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Abrís puertas blindadas en Montecerrao sin romperlas?",
+          "respuesta": "En la mayoría de los casos, sí. Si la cerradura no lo permite, te explicamos la alternativa y el precio antes de hacer nada."
+        },
+        {
+          "pregunta": "Acabo de comprar un piso en Montecerrao, ¿qué me recomendáis?",
+          "respuesta": "Cambiar el bombín de la puerta de entrada por uno antibumping y antiganzúa y, si quieres, también la cerradura del trastero. Se hace en una sola visita."
+        },
+        {
+          "pregunta": "¿Cuánto tardáis desde que llamo?",
+          "respuesta": "Solemos llegar en {llegada}. Te damos la estimación y el precio cerrado en la misma llamada."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-san-claudio",
+      "nombre": "San Claudio",
+      "llegada": "40-50 min",
+      "titulo_seo": "Cerrajeros en San Claudio (Oviedo) ☎ {telefono} | Casas y chalets",
+      "descripcion_meta": "Cerrajero en San Claudio, Oviedo: casas, chalets y fincas. Abrimos sin romper y cambiamos cerraduras de puertas y cancelas. Llama al {telefono}.",
+      "h1": "Cerrajeros en San Claudio, Oviedo",
+      "intro": "San Claudio es una parroquia del oeste del concejo, conocida por su antigua fábrica de loza, con casas, chalets y algunos bloques de pisos. Llegamos en {llegada} y te damos el precio antes de salir.",
+      "secciones": [
+        {
+          "titulo": "Viviendas unifamiliares",
+          "texto": [
+            "Buena parte de las viviendas de San Claudio son casas con finca, chalets o adosados. Eso significa más puertas que proteger: la principal, la de la cocina o el patio, la del garaje y la cancela de entrada. La de la cancela es la que más sufre la lluvia, así que también la revisamos.",
+            "Cuando una casa queda vacía durante el día, conviene que la puerta principal tenga cerradura de varios puntos y un bombín resistente al bumping. Te asesoramos en la propia casa y lo instalamos con el material que llevamos en la furgoneta."
+          ]
+        },
+        {
+          "titulo": "Cerraduras a la intemperie",
+          "texto": [
+            "La humedad asturiana se nota en las cerraduras exteriores. Portones, cancelas y puertas de garaje se oxidan, la llave cuesta cada vez más y un día deja de girar.",
+            "Si te ha pasado en San Claudio, abrimos sin forzar cuando es posible y cambiamos la cerradura por una pensada para exterior. Te damos el precio cerrado por teléfono, también si es domingo."
+          ]
+        },
+        {
+          "titulo": "Tiempo de llegada y condiciones",
+          "texto": [
+            "San Claudio está a unos kilómetros del centro de Oviedo, así que el tiempo habitual es de {llegada}. Trabajamos {horario}.",
+            "Antes de abrir pedimos que acredites que vives en la vivienda. Te damos factura válida para el seguro, puedes pagar con tarjeta, Bizum o efectivo, y te atiende alguien con 15 años de oficio."
+          ]
+        }
+      ],
+      "barrios": [
+        "Antigua Fábrica de Loza",
+        "La Lloral",
+        "La Venta",
+        "Sograndio",
+        "Las Campas",
+        "Trubia"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Llegáis hasta San Claudio?",
+          "respuesta": "Sí, damos servicio en toda la parroquia y alrededores, como La Lloral o Sograndio. El tiempo habitual es de {llegada}."
+        },
+        {
+          "pregunta": "La cerradura de mi portón exterior no gira, ¿qué hacéis?",
+          "respuesta": "Intentamos abrir sin romper y, si la cerradura está dañada por el óxido, la sustituimos por una apta para exterior en la misma visita."
+        },
+        {
+          "pregunta": "¿Podéis cambiar todas las cerraduras de una casa que acabo de comprar?",
+          "respuesta": "Sí. Te damos el precio de todo el trabajo por teléfono y cambiamos los cilindros de todas las puertas en una visita."
+        }
+      ]
+    },
+    {
+      "slug": "cerrajeros-colloto",
+      "nombre": "Colloto",
+      "llegada": "30-45 min",
+      "titulo_seo": "Cerrajeros en Colloto ☎ {telefono} | Apertura de puertas",
+      "descripcion_meta": "Cerrajero en Colloto (Oviedo): aperturas sin romper, cambio de cerraduras en casas y pisos y cierres de locales. Precio cerrado. Llama al {telefono}.",
+      "h1": "Cerrajero en Colloto",
+      "intro": "Colloto, en el este del concejo y a orillas del río Nora, combina casas de pueblo con bloques de pisos de distintas épocas. Atendemos aperturas y cambios de cerradura en {llegada}.",
+      "secciones": [
+        {
+          "titulo": "Casas tradicionales y pisos",
+          "texto": [
+            "Cerca del viejo puente sobre el Nora y a lo largo del Camino Real quedan viviendas tradicionales, con puertas de madera y cerraduras de un solo punto. Junto a ellas hay bloques de vivienda más antiguos, algunos sin ascensor, y edificios posteriores con garaje y puerta blindada.",
+            "Sabemos tratar los tres casos. En las puertas antiguas abrimos sin dañar la madera siempre que se puede, y en las blindadas trabajamos sobre el bombín sin forzar la hoja. Antes de empezar te explicamos qué vamos a hacer."
+          ]
+        },
+        {
+          "titulo": "Locales y bajos comerciales",
+          "texto": [
+            "Si tienes un local con cierre metálico o persiana, lo abrimos cuando se bloquea y cambiamos la cerradura si la llave se ha perdido o se ha roto.",
+            "Te damos factura, a nombre de la empresa si lo necesitas, y trabajamos también sábados, domingos y festivos. Si el cierre no se puede reparar en el momento, lo dejamos asegurado para que el local no quede abierto."
+          ]
+        },
+        {
+          "titulo": "Precio y llegada",
+          "texto": [
+            "Al llamar nos cuentas qué ocurre y te damos el precio total. Desde que salimos, a Colloto solemos tardar {llegada}, y si se trata de reforzar la puerta llevamos ya bombines antibumping y antiganzúa.",
+            "Antes de abrir te pedimos un documento que acredite que vives allí. Pagas con tarjeta, Bizum o efectivo, y te atiende un equipo con 15 años de oficio en Oviedo."
+          ]
+        }
+      ],
+      "barrios": [
+        "Puente de Colloto",
+        "Camino Real",
+        "Calle Luis Suárez Ximielga",
+        "Calle Fuente del Río"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Dais servicio en Colloto aunque esté fuera del casco urbano?",
+          "respuesta": "Sí, Colloto forma parte del concejo de Oviedo y vamos igual que a cualquier barrio. El tiempo habitual de llegada es de {llegada}."
+        },
+        {
+          "pregunta": "Tengo una puerta de madera antigua en Colloto, ¿podéis abrirla sin romperla?",
+          "respuesta": "En la mayoría de los casos, sí. Si hubiera que cambiar la cerradura, te damos el precio antes de hacerlo."
+        },
+        {
+          "pregunta": "¿Cambiáis el bombín si me mudo a un piso de la zona?",
+          "respuesta": "Sí. Llevamos cilindros de seguridad en la furgoneta y lo dejamos cambiado en la misma visita, con todas las llaves nuevas para ti."
+        }
+      ]
+    }
   ]
 }

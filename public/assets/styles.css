@@ -367,7 +367,7 @@ h1, h2, h3 { font-family: var(--fuente-titulos); font-weight: 600; line-height: 
 }
 .note h2 { font-size: 1.2rem; margin: 0 0 .6em; }
 .note ol { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
-.prose a { color: var(--tinta-700); }
+.prose a:not(.btn) { color: var(--tinta-700); }
 .box a:not(.btn):not(.bigphone) { color: var(--tinta-700); font-weight: 600; }
 
 /* Páginas legales */
