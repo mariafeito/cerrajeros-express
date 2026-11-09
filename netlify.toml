@@ -1,0 +1,4 @@
+# Netlify genera la web en cada push a GitHub
+[build]
+  command = "python3 build.py"
+  publish = "public"
